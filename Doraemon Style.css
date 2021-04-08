@@ -5,3 +5,21 @@ input[type=text]:valid{color:green;box-shadow:0px 0px 32px green;}
 input[type=text]:invalid{Color:red;box-shadow:0px 0px 32px red;}
 #dis{display:none;}tr:nth-child(even){background-color:lightskyblue;}tr:nth-child(odd){background-color:#d0e4fe;}#2{display:none;position:right;}.HallTic{width:100%;background-color:#FFFFFF;font-size:50px;}.Offline{background-color:pink;margin-left-color:Red;font-size:30px;text-align:center;Padding:20px 23px;Color:red;font-weight:bold;}#fclose{float:right;font-size:30px;font-weight:4px bold;background-color:pink;border:none;}.fresults{display:none;}
 #Bad400{ display:none; font-size:12px; color:red; font-family:courier; font-weight:bold; background-color:black;}
+.Notification{
+     display:none;
+     background-color:Red;
+     color:White;
+     font-size:10px;
+     position:fixed;
+     box-shadow:14px 10px 8px black;
+     border-radius:4px;
+     font-family:courier;
+     font-weight:bold;
+     padding:4px;
+     }
+     #Hide{
+         background-color:red;
+         color:white;
+         border:none;
+         
+     }
