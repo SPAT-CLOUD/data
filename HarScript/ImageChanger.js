@@ -10,7 +10,7 @@ Changes All into Doraemon Images
 
 By Including This Script By 
 
-<script src="https://spat-cloud.github.io/HarScript/ImageChanger.js"></script>
+<script src="https://spat-cloud.github.io/HarScript/ImageChanger1.0.js"></script>
 
 And Call function Doraemon_Change_Images()
 
