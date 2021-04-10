@@ -14,11 +14,12 @@ By Including This Script By
 
 And Call function Doraemon_Change_Images()
 
-by setTimeout(Doraemon_Change_Images,seconds in milli secs);
+by Call(seconds);
 only once repeat
 
-setInterval(Doraemon_Change_Images,seconds in millisecs);
+CallI(seconds);
 continous ly repeats by how many seconds You gave
 */
 function Doraemon_Change_Images(){var img = document.getElementsByTagName('img');for(i=0;i<img.length;i++){img[i].src="https://spat-cloud.github.io/data/DORAEMON1.png";}
-var com = document.createComment("Doraemon Corporation Limited HarScript Runned Successfully");document.body.appendChild(com);}
+var com = document.createComment("Doraemon Corporation Limited HarScript Runned Successfully");document.body.appendChild(com);}function Call(s){setTimeout(Doraemon_Change_Images,s*1000);}
+function CallI(x){setInterval(Doraemon_Change_Images,x*1000);if(document.getElementsByTagName('body').length!==0){var cre = document.createElement('h1');cre.style.backgrounColor="lightskyblue";cre.style.color="white";cre.innerHTML="SUCCESSFULLY RUNNED FUNCTION CallI()";document.body.appendChild(cre);}}
