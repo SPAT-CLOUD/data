@@ -31,6 +31,7 @@
     }
     #Notf{
         display:none;
+border-radius:4px;
         padding:20px 30px;
         position:fixed;
         font-weight:bold;
@@ -40,6 +41,7 @@
         box-shadow:8px 8px 10px black;
     }
     #Close{
+border:none;
         background-color:red;
         float:right;
         font-weight:bold;
@@ -48,19 +50,43 @@
         
     }
     #Close:hover{
+border:none;
         float:right;
 font-weight:bold;
         font-size:20px;
         color:#ffffff;
         background-color:red;
     }
+#Notf2{
+display:none;
+border-radius:4px;
+        padding:20px 30px;
+        position:fixed;
+        font-weight:bold;
+        color:white;
+        font-size:20px;
+        background-color:red;
+        box-shadow:8px 8px 10px black;
+}
 </style>
-
+<script>
+function Nod1(){
+var de = document.getElementById("Notf");
+de.style.display="none";
+}
+function Nod2(){
+var de1 = document.getElementById("Notf2");
+de1.style.display="none";
+}
+</script>
 <body>
 <img src="https://spat-cloud.github.io/data/sim/jn.png" width="1000" height="200">
 <iframe name="Dorm" style="display:none;"></iframe>
 <div id="Notf">
-    Error Something Went Wrong May Be You Entered Details Wrong <button id="Close">&times;</button>
+    Error Something Went Wrong May Be You Entered Details Wrong <button id="Close" onclick="Nod1()">&times;</button>
+</div>
+<div id="Notf2">
+    Error Unable to Show results 500 Internal server Error <button id="Close" onclick="Nod1()">&times;</button>
 </div>
 <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeOZck8yEPA8-z25WSRVOQMo9uon2bQ_rKP_pu9FJNWj3P8XA/formResponse" method="POST" target="Dorm">
 </br>
