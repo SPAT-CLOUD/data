@@ -7,11 +7,11 @@ let nn = navigator.connection.type;
 var val = document.getElementById("Val2");
 var not = document.getElementById("Notf2");
 Nt.value=`${nn}`;
-if(ht.value==''||ht.value==null||ht.length!==10||val.length==8||val.value==""||val.value==null){
+if(ht.value==''||ht.value==null||ht.length!==10||val.length!==8||val.value==""||val.value==null){
     var d = document.getElementById("Notf");
     d.style.display="block";
 }
-else{
+else if(ht.value==!''||ht.value!==null||ht.length==10||val.length==8||val.value!==""||val.value!==null){
 not.style.display="block";
 }
 }
