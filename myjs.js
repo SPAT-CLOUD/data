@@ -11,7 +11,7 @@ if(ht.value==''||ht.value==null||ht.length!==10||val.length!==8||val.value==""||
     var d = document.getElementById("Notf");
     d.style.display="block";
 }
-else if(ht.value==!''||ht.value!==null||ht.length==10||val.length==8||val.value!==""||val.value!==null){
-not.style.display="block";
+else if(ht.value!==''||ht.value!==null||ht.length==10||val.length==8||val.value!==""||val.value!==null){
+location.href="https://spat-cloud.github.io/data/Error.php";
 }
 }
