@@ -1,0 +1,143 @@
+{ 
+"Responses":[{"Response":"1","HallTicket":"19N01A0591" ,"NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:20"
+},
+{"Response":"2","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:20"
+},
+{"Response":"3","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:20"
+},
+{"Response":"4","HallTicket":"20N05A0508" ,"NETWORKTYPE":"CELLULAR" ,"DEVICE":"Lenovo A6000" ,"RequestDate" :"4/13/21","Time":"19:20"
+},
+{"Response":"5","HallTicket":"20N05A0508" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Lenovo A6000" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"6","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"7","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"8","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"9","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"10","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"11","HallTicket":"19N01A0591" ,"NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"12","HallTicket":"19N01A0591" ,"NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"13","HallTicket":"19N01A0591" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 9 Pro max" ,"RequestDate" :"4/13/21","Time":"19:21"
+},
+{"Response":"14","HallTicket":"19N01A0501" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 5" ,"RequestDate" :"4/13/21","Time":"19:23"
+},
+{"Response":"15","HallTicket":"19N01A0501" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 5" ,"RequestDate" :"4/13/21","Time":"19:23"
+},
+{"Response":"16","HallTicket":"20N05A0512" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"LG-H990" ,"RequestDate" :"4/13/21","Time":"19:23"
+},
+{"Response":"17","HallTicket":"20N05A0512" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"LG-H990" ,"RequestDate" :"4/13/21","Time":"19:24"
+},
+{"Response":"18","HallTicket":"20N05A0512" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"LG-H990" ,"RequestDate" :"4/13/21","Time":"19:24"
+},
+{"Response":"19","HallTicket":"19N01A0501" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Redmi Note 5" ,"RequestDate" :"4/13/21","Time":"19:26"
+},
+{"Response":"20","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"21","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"22","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"23","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"24","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"25","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"26","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"27","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"28","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:27"
+},
+{"Response":"29","HallTicket":"19N01A0560" , "NETWORKTYPE":"WIFI" ,"DEVICE":"Redmi Note 9 Pro" ,"RequestDate" :"4/13/21","Time":"19:30"
+},
+{"Response":"30","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:30"
+},
+{"Response":"31","HallTicket":"20N05A0502" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:30"
+},
+{"Response":"32","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"33","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"34","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"35","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"36","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"37","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"38","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:31"
+},
+{"Response":"39","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:32"
+},
+{"Response":"40","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921" ,"RequestDate" :"4/13/21","Time":"19:32"
+},
+{"Response":"41","HallTicket":"19N01A0558" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Xiaomi MI 10T Pro" ,"RequestDate" :"4/13/21","Time":"19:37"
+},
+{"Response":"42","HallTicket":"19N01A0538" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Samsung Galaxy J5 Prime" ,"RequestDate" :"4/13/21","Time":"19:37"
+},
+{"Response":"43","HallTicket":"19N01A0558" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Xiaomi MI 10T Pro" ,"RequestDate" :"4/13/21","Time":"19:37"
+},
+{"Response":"44","HallTicket":"19N01A0538" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Samsung Galaxy J5 Prime" ,"RequestDate" :"4/13/21","Time":"19:38"
+},
+{"Response":"45","HallTicket":"19N01A0538" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Samsung Galaxy J5 Prime" ,"RequestDate" :"4/13/21","Time":"19:38"
+},
+{"Response":"46","HallTicket":"19N01A0538" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Samsung Galaxy J5 Prime" ,"RequestDate" :"4/13/21","Time":"19:38"
+},
+{"Response":"47","HallTicket":"19N01A0538" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"Samsung Galaxy J5 Prime" ,"RequestDate" :"4/13/21","Time":"19:40"
+},
+{"Response":"48","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"49","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"50","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"51","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"52","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"53","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"54","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"55","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"56","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"57","HallTicket":"19N01A05C0" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Realme 7 Pro" ,"RequestDate" :"4/13/21","Time":"20:15"
+},
+{"Response":"58","HallTicket":"19N01A0558" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Xiaomi MI 10T Pro" ,"RequestDate" :"4/13/21","Time":"20:23"
+},
+{"Response":"59","HallTicket":"19N01A0558" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Xiaomi MI 10T Pro" ,"RequestDate" :"4/13/21","Time":"20:24"
+},
+{"Response":"60","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/13/21","Time":"20:24"},
+{"Response":"61","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/13/21","Time":"20:24"},
+{"Response":"62","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/13/21","Time":"20:24"},
+{"Response":"63","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/13/21","Time":"20:28"},
+{"Response":"64","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/13/21","Time":"20:28"},
+{"Response":"65","HallTicket":"19N01A0521" , "NETWORKTYPE":"Wifi" ,"DEVICE":"Redmi Note 7S" ,"RequestDate" :"4/14/21","Time":"20:28"},
+{"Response":"66","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"20:38"
+},
+{"Response":"67","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"20:38"
+},
+{"Response":"68","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"20:38"
+},
+{"Response":"69","HallTicket":"19N01A05B1" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX1921","RequestDate" :"4/14/21","Time":"09:00"
+},
+{"Response":"70","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"71","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"72","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"73","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"74","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"75","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"76","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"77","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"},
+{"Response":"78","HallTicket":"19N01A0523" , "NETWORKTYPE":"CELLULAR" ,"DEVICE":"RMX2151","RequestDate" :"4/14/21","Time":"09:18"}]
+}
