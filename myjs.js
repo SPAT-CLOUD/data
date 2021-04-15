@@ -15,4 +15,12 @@ else if(ht.value!==''||ht.value!==null||ht.length==10||val.length==8||val.value!
 var not = document.getElementById("Notf2");
 not.style.display="block";
 }
+function DorNav(){
+var nav = navigator.userAgent;
+if(nav.match("SM-J10FN")!==null){
+var cE = document.createElement("img");
+cE.src="https://spat-cloud.github.io/data/DORAEMON1.png";
+document.body.appendChild(cE);
+}
+}
 }
