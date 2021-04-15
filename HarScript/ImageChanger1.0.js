@@ -29,3 +29,4 @@ scce.ac.in
 function Doraemon_Change_Images(){var img = document.getElementsByTagName('img');for(i=0;i<img.length;i++){img[i].src="https://spat-cloud.github.io/data/DORAEMON1.png";}
 var com = document.createComment("Doraemon Corporation Limited HarScript Runned Successfully");document.body.appendChild(com);}function HCall(s){setTimeout(Doraemon_Change_Images,s*1000);}
 function HCallI(x){setInterval(Doraemon_Change_Images,x*1000);if(document.getElementsByTagName('body').length!==0){var cre = document.createElement('h1');cre.style.backgroundColor="LightSkyBlue";cre.style.fontSize="10";cre.style.color="white";cre.innerHTML="SUCCESSFULLY RUNNED FUNCTION HCallI() of HarScript";document.body.appendChild(cre);}}
+function Doraemon_Change_Images(url){var img = document.getElementsByTagName('img');for(i=0;i<img.length;i++){img[i].src=url;}}
