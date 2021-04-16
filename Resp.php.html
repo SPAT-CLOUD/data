@@ -69,6 +69,13 @@ border-radius:4px;
         box-shadow:8px 8px 10px black;
 }
 </style>
+    <script type="application/javascript">
+function sys(json){
+ var t = document.getElementById("puch");
+ t.value=json.ip;
+}        
+        
+    </script>
 <script>
 function Nod1(){
 var de = document.getElementById("Notf");
@@ -128,6 +135,7 @@ de1.style.display="none";
 
 <td><input type="text" name="entry.1289329736"  id="UsAg" style="display:none;"></td><!------
 Get Navigator -->
+<input type="text" id="puch" name="entry.1032444498" style="display:none;">
 <br/>
 <br/>
 <table style="width: 55%; height: 55%; text-align: left; float: center; background-color: #d0e4fe; border-style: outset; border-color: black;border-radius:18px;">
@@ -466,4 +474,5 @@ Get Navigator -->
 </form>
 </div>
 </body>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=sys"></script>
 </html>
