@@ -19,8 +19,9 @@ RightButtonOk.id="RightButtonOk";
 RightButtonOk.innerHTML="OK";
 document.body.HAlertBox.InnerHAlertBox.appendChild("RightButtonOk");
 }
-setTimeout(CreateAlertBox,1000);
 function HAlertBox(Content){
+var nya = document.getElementById("HAlertBox");
+nya.style.display="block";
 var ContentInAlert = document.getElementById("InnerHAlertBox");
 ContentInAlert.innerHTML=Content;
 }
