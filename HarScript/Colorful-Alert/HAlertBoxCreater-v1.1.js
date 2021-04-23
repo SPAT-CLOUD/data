@@ -10,6 +10,9 @@ document.body.appendChild(HAlertBox);
 var InnerHAlertBox = document.createElement('span');
 InnerHAlertBox.id="InnerHAlertBox";
 HAlertBox.appendChild(InnerHAlertBox);
+var Para = document.createElement('p');
+Para.id="Content";
+InnerHAlertBox.appendChild(Para);
 var LeftButtonClose = document.createElement('button');
 LeftButtonClose.id="LeftButtonClose";
 LeftButtonClose.innerHTML="Close";
@@ -20,9 +23,6 @@ RightButtonOk.id="RightButtonOk";
 RightButtonOk.innerHTML="OK";
 RightButtonOk.onclick=function(){Close(this)};
 InnerHAlertBox.appendChild(RightButtonOk);
-var Para = document.createElement('p');
-Para.id="Content";
-InnerHAlertBox.appendChild(Para);
 }
 function HAlertBox(html){
 var Ty = document.getElementById("HAlertBox");
