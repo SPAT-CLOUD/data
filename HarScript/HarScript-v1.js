@@ -24,7 +24,7 @@ RightButtonOk.innerHTML="OK";
 RightButtonOk.onclick=function(){Close(this)};
 InnerHAlertBox.appendChild(RightButtonOk);
 }
-HCallOnce(YourFunc,TimeSec){
+function HCallOnce(YourFunc,TimeSec){
 setTimeout(YourFunc,TimeSec*1000);
 }
 HCallOnce(CreateAlertBox,1);
