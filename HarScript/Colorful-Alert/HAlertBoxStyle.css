@@ -5,4 +5,4 @@
 #LeftButtonClose:hover{Color:blue;Padding:8px;Background-color:#ffffff;border:none;border-radius:4px;font-size:20px;float:left;left:2px; bottom:2px; position:absolute;}
 #RightButtonOk{Color:blue;Padding:8px;Background-color:#ffffff;border:none;border-radius:4px;font-size:20px;float:Right;Right:2px; bottom:2px; position:absolute;}
 #RightButton:hover{Color:blue;Padding:8px;Background-color:#ffffff;border:none;border-radius:4px;font-size:20px;float:Right;}
-#Content{color:#4ACFC4;font-weight:bold;padding:16px 0;margin-top:-12px;text-align:top-left;!important/*position:absolute;*/}
+#Content{color:#000000;font-weight:bold;padding:16px 0;margin-top:-12px;text-align:top-left;!important/*position:absolute;*/}
