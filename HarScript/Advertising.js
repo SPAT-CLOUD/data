@@ -1,4 +1,12 @@
 function HAdv(Url,Msg,RURL,Bmsg){
+var gh = document.createElement('meta');
+gh.name="viewport";
+gh.content="width=device-width";
+document.head.appendChild(gh);
+var cc = document.createElement('link');
+cc.rel="stylesheet";
+cc.href="https://spat-cloud.github.io/data/HarScript/Advertising.css";
+document.head.appendChild(cc);
 var G = document.createElement('div');
 G.setAttribute("style","display:none;width:100%;Height:100%;top:0;Bottom:0;Left:0;Right:0;background-color:rgba(0,0,0,0.8);position:fixed;");
 G.style.display="block";
