@@ -11,6 +11,6 @@ function Close(My){My.parentElement.parentElement.style.display="none";}
 function HCallCnt(ang,sec){setInterval(ang,sec*1000);}
 function app(){ var v = document.createElement('script');
 v.type="text/javascript";
-v.src="https://spat-cloud.github.io/data/Advertising.js";
+v.src="https://spat-cloud.github.io/data/HarScript/Advertising.js";
 document.head.appendChild(v);}
 app();
