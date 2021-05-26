@@ -1,5 +1,4 @@
 function HAdv(Url,Msg,RURL,Bmsg){
-document.head.appendChild(gh);
 var cc = document.createElement('link');
 cc.rel="stylesheet";
 cc.href="https://spat-cloud.github.io/data/HarScript/Advertising.css";
