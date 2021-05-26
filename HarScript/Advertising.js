@@ -1,7 +1,4 @@
 function HAdv(Url,Msg,RURL,Bmsg){
-var gh = document.createElement('meta');
-gh.name="viewport";
-gh.content="width=device-width";
 document.head.appendChild(gh);
 var cc = document.createElement('link');
 cc.rel="stylesheet";
