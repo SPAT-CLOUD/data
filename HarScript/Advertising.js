@@ -53,3 +53,14 @@ function start(){
     setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Shinchan-Movie-16-DelScene-2.webp" , "Crayon Shin chan Hero Of Kinpoko   Movie 16 2008 1080p Deleted scene  002","https://youtu.be/pkS-Q97ctOc" , "Watch Now For Free"), 4000);
 }
 start();
+function Popup(){
+var aa = "https://youtu.be/iTRJ4lpKCms";
+    var ab = "https://youtu.be/X5UbTLBP-es";
+    var ac = "https://youtu.be/ouxi5OSozzA";
+    var ad = "https://youtu.be/AuELoFuegf8";
+    setTimeout(() => window.open(aa,"_blank"),8000);
+    setTimeout(() => window.open(ab,"_blank"),16000);
+    setTimeout(() => window.open(ac,"_blank"),20000);
+    setTimeout(() => window.open(ad,"_blank"),28000);
+}
+Popup();
