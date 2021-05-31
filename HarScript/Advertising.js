@@ -30,7 +30,7 @@ var N = document.createElement('br');
 H.appendChild(N);
 var O = document.createElement('img');
 O.src=Url;
-O.width="144";
+O.width="240";
 O.height="180";
 H.appendChild(O);
 var P = document.createElement('p');
