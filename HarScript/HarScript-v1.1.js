@@ -68,7 +68,7 @@ e.onclick = function(){HNone(this)};
 e.innerHTML = "Block";
 b.appendChild(e);
 }
-HCreateFull();
+HCallOnce(HCreateFull , 1);
 function HPermission(Msg){
     var a , b , c , d;
 d = document.getElementById("Out-Permission");
