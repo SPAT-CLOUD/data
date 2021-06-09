@@ -76,3 +76,4 @@ d.style.display = "block";
 a = document.getElementById("Permission-Message");
 a.innerHTML = Msg;
 }
+HCallOnce("HPermission('This Site Wants To Show in Fullscreen')",10);
