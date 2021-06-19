@@ -22,7 +22,7 @@ app();
   
      
   function HFullScr(x){
-Var C = document.documentElement;
+var C = document.documentElement;
       if(C.requestFullscreen){
           C.requestFullscreen();
       }
@@ -75,27 +75,12 @@ function HDisableKeys(){document.onkeydown = function(e){if(e.ctrlKey || e.shift
   document.onkeyup = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
   document.onmouseup = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
   document.onmouseover = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
-  document.onmouseout = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};}
+  document.onmouseout = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
+}
 function HFullscreen(Msg){
-    var a , b , c , d;
+var a , b , c , d;
 d = document.getElementById("Out-Permission");
 d.style.display = "block";
 a = document.getElementById("Permission-Message");
 a.innerHTML = Msg;
 }
-HForceFullSCR(){
-var C=document.documentElement;
-if(C.requestFullscreen){
-          C.requestFullscreen();
-      }
-      else if(C.msRequestFullscreen){
-          C.msRequestFullscreen();
-      }
-      else if(C.mozRequestFullscreen){
-          C.mozRequestFullscreen();
-      }
-      else if(C.webkitRequestFullscreen){
-          C.webkitRequestFullscreen();
-      }
-}
-
