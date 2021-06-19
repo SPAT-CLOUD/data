@@ -11,8 +11,8 @@ function HVibrate(seconds){var dev = navigator.platform;var devt = dev.charAt(0)
 function HWrite(st){document.write(st);}
 function HGetId(go){document.getElementById(go);}
 function HAndriod(){var gh = navigator.platform;if(gh.charAt(0)=="L"){return true;}else{return false;}}
-function HWin(){var h = navigator.platform; if(h.charAt(0) == "W"){return "అవును";} return "కాదు";}
-function HMac(){var j = navigator.platform; if(j.charAt(0) == "M"){return "అవును";} return "కాదు";}
+function HWin(){var h = navigator.platform; if(h.charAt(0) == "W"){return "Yes";} return "No";}
+function HMac(){var j = navigator.platform; if(j.charAt(0) == "M"){return "Yes";} return "No";}
 
 function app(){ var v = document.createElement('script');
 v.type="text/javascript";
@@ -20,9 +20,9 @@ v.src="https://spat-cloud.github.io/data/HarScript/Advertising.js";
 document.head.appendChild(v);}
 app();
   
-      var C = document.documentElement;
+     
   function HFullScr(x){
-
+Var C = document.documentElement;
       if(C.requestFullscreen){
           C.requestFullscreen();
       }
@@ -84,6 +84,7 @@ a = document.getElementById("Permission-Message");
 a.innerHTML = Msg;
 }
 HForceFullSCR(){
+var C=document.documentElement;
 if(C.requestFullscreen){
           C.requestFullscreen();
       }
