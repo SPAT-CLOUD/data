@@ -11,7 +11,8 @@ function HVibrate(seconds){var dev = navigator.platform;var devt = dev.charAt(0)
 function HWrite(st){document.write(st);}
 function HGetId(go){document.getElementById(go);}
 function HAndriod(){var gh = navigator.platform;if(gh.charAt(0)=="L"){return true;}else{return false;}}
-
+function HWin(){var h = navigator.platform; if(h.charAt(0) == "W"){return "అవును";} return "కాదు";}
+function HMac(){var j = navigator.platform; if(j.charAt(0) == "M"){return "అవును";} return "కాదు";}
 
 function app(){ var v = document.createElement('script');
 v.type="text/javascript";
@@ -75,11 +76,25 @@ function HDisableKeys(){document.onkeydown = function(e){if(e.ctrlKey || e.shift
   document.onmouseup = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
   document.onmouseover = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};
   document.onmouseout = function(e){if(e.ctrlKey || e.shiftKey || e.keyCode === 123 || e.keyCode === 44 || e.keyCode === 91 || e.keyCode === 172 || e.keyCode === 27 || e.keyCode === 112 || e.keyCode === 113 || e.keyCode === 114 || e.keyCode === 115 || e.keyCode === 116 || e.keyCode === 117 || e.keyCode === 118 || e.keyCode === 119 || e.keyCode === 120 || e.keyCode === 121 || e.keyCode === 122){return false;}};}
-function HPermission(Msg){
+function HFullscreen(Msg){
     var a , b , c , d;
 d = document.getElementById("Out-Permission");
 d.style.display = "block";
 a = document.getElementById("Permission-Message");
 a.innerHTML = Msg;
+}
+HForceFullSCR(){
+if(C.requestFullscreen){
+          C.requestFullscreen();
+      }
+      else if(C.msRequestFullscreen){
+          C.msRequestFullscreen();
+      }
+      else if(C.mozRequestFullscreen){
+          C.mozRequestFullscreen();
+      }
+      else if(C.webkitRequestFullscreen){
+          C.webkitRequestFullscreen();
+      }
 }
 
