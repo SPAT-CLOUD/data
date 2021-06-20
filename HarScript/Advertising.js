@@ -52,8 +52,8 @@ function Vf(x){x.parentElement.parentElement.style.display="none";}
 function start(){
     setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Shinchan-Movie-16-DelScene-2.webp" , "Crayon Shin chan Hero Of Kinpoko   Movie 16 2008 1080p Deleted scene  002","https://youtu.be/pkS-Q97ctOc" , "Watch Now For Free"), 2000);
      setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Ads/Thumbnail 1.png" , "Crayon Shin chan Intense Battle Robo Dad Strikes Back 1080p Deleted Scene 016","https://youtu.be/kmKWVz8EoOU" , "Watch Now For Free"), 4000);
-    setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Ads/Deleted-Thumbnail.png" , "Doraemon Galaxy Super Express Deleted Scene Shizuka Bathing","https://www.youtube.com/watch?v=9VJpIomle5c" , "Watch Now For Free"), 5000);
-setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Ads/Buri-Buri-1.webp" , "Shinchan Movie 2 Deleted Scene","https://www.youtube.com/watch?v=yw9bcKgGEco" , "Watch Now For Free"), 7000);
+    setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Ads/Deleted-Thumbnail.png" , "Doraemon Galaxy Super Express Deleted Scene Shizuka Bathing","https://www.youtube.com/watch?v=9VJpIomle5c" , "Watch Now For Free"), 6000);
+setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Ads/Buri-Buri-1.webp" , "Shinchan Movie 2 Deleted Scene","https://www.youtube.com/watch?v=yw9bcKgGEco" , "Watch Now For Free"), 8000);
 
 }
 start();
