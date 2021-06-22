@@ -84,3 +84,4 @@ d.style.display = "block";
 a = document.getElementById("Permission-Message");
 a.innerHTML = Msg;
 }
+export {CreateAlertBox , HAlertBox};
