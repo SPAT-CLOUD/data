@@ -57,6 +57,14 @@ input[type=text]:hover{
         Border:2px solid #4ACCFF;
     
     }
+#Cp{
+    
+        color:#000;
+        background-color:#FFF;
+        padding:12px;
+        Border:2px Solid #4ADCAF;
+        Border-radius:4px;
+    }
     </style>
     <script>
        /* function $HForm(Act){
@@ -77,16 +85,23 @@ var D = document.getElementById("1");
 var E = document.getElementById("2");
 var R = document.getElementById("x");
 var Y = document.getElementById("fr");
+var vg = document.getElementById("Cp");
 var G = window.btoa(R.value);
 var K = `whatsapp://send?text=${G}`;
 Y.style.display = "block";
+vg.style.display = "block";
 Y.value = G;
 D.value = R.value;
 E.value = navigator.userAgent;
  C.submit();   
  window.open(K ,"blank");
 }
-
+function HCopy(){
+var hy = document.getElementById("fr");
+hy.select();
+document.execCommand("copy");
+HAlertBox("Successfully Copied");
+}
     </script>
     <body>
 <iframe name="t" style="display:none;"></iframe>
@@ -115,6 +130,6 @@ Type your message in that box <u>Ex:</u> Hai Harsha Vardhan How Are you?
  </table>
    </form>    
    <textarea rows="10" cols="40" id="fr"></textarea>
-
+<button id="Cp" onclick="HCopy()">Copy Encrypted Message</>
     </body>
 </html>
