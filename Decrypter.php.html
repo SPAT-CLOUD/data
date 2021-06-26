@@ -66,7 +66,7 @@ var D = document.getElementById("1");
 var E = document.getElementById("2");
 var R = document.getElementById("Y");
 var RY = document.getElementById("Dr");
-var Ku = window.atob(R.value)
+var Ku = $Hdecode64(R.value);
 var K = `whatsapp://send?text=${Ku}`;
 RY.style.display = "block";
 RY.value = Ku;
