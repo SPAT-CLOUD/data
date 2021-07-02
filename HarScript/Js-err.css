@@ -1,0 +1,29 @@
+    #JS-Err{
+        display:none;
+        color:green;
+    }
+    #box{
+        Width:100%;
+        Height:100%;
+        Left:0;
+        Right:0;
+        Top:0;
+        Bottom:0;
+       Background-color:rgba(0 , 0 ,0 ,0.8);
+    Position:fixed;
+        
+    }
+    #JS-Disable{
+        background-IMAGE:linear-Gradient(To Bottom , red , maROon);
+        color:#DDD;
+        Font-weight:Bold;
+        Font-size:14px;
+        Width:240px;
+        Top:0;
+        Left:0;
+        Right:0;
+        Text-align:center;
+        Margin:15% auto;
+        Padding:12px;
+        PosItion:absolute;
+    }
