@@ -2,9 +2,9 @@
 <html>
     <head>
    <meta name="viewport" content="width=device-width">   
-<script src="https://spat-cloud.github.io/data/HarScript/HarScript.v1.2.min.js"></script>
+<script src="https://spat-cloud.github.io/data/HarScript/HarScript.v1.6.min.js"></script>
    <title>
-  Decrypt Message Sender Message And Send Through  Whatsapp  </title>
+  Decrypt Encrypted Text Message  </title>
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9W6Z6076P"></script>
 <script>
@@ -69,19 +69,12 @@ input[type=text]:hover{
     <script>
 
 function HSendDec(){
-    var C = document.getElementById("4");
-var D = document.getElementById("1");
-var E = document.getElementById("2");
-var R = document.getElementById("Y");
-var RY = document.getElementById("Dr");
-var Ku = $Hdecode64(R.value);
-var K = `whatsapp://send?text=${Ku}`;
-RY.style.display = "block";
-RY.value = Ku;
-D.value = R.value;
-E.value = navigator.userAgent;
- C.submit();   
- window.open(K ,"blank");
+var Ku = $Hdecode64($HId('Y').value);
+$HId('Dr').style.display = "block";
+$HId('Dr').value = Ku;
+$HId('1').value = $HId('Y').value;
+$HId('2').value = navigator.userAgent;
+ $HId('4').submit();   
 }
        
     </script>
@@ -112,7 +105,7 @@ E.value = navigator.userAgent;
  </tr>
            <tr>
                <td>
- <input type="submit" value="Send Decode Message Through Whatsapp" onclick="HSendDec()">
+ <input type="submit" value="Decode" onclick="HSendDec()">
  </td>
  </tr>
  </table>
