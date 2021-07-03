@@ -69,13 +69,14 @@ input[type=text]:hover{
     <script>
 
 function HSendDec(){
+try{
 var Ku = $Hdecode64($HId('Y').value);
 $HId('Dr').style.display = "block";
 $HId('Dr').value = Ku;
 $HId('1').value = $HId('Y').value;
 $HId('2').value = navigator.userAgent;
  $HId('4').submit();   
-}
+}catch(e){}throw "Errors";}
        
     </script>
     <script> HDisablekeys();
