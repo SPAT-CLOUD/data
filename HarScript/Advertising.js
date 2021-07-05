@@ -47,7 +47,24 @@ H.appendChild(Hf);
 var Q = document.createElement('button');
 Q.setAttribute("style","color:White;Background-Image:Linear-gradient(to Bottom , Green , Lightgreen);width:100%;BOrder:None;bottom:0;Left:0;Right:0;Font-size:10px;Padding:12px;Font-weight:bold;Position:Absolute;");
 Q.innerHTML=Bmsg;
-Hf.appendChild(Q);}
+Hf.appendChild(Q);
+var gfg = document.createElement('link');
+gfg.rel = "dns-prefetch";
+gfg.href="https://spat-cloud.github.io/data/HarScript/Shinchan-Movie-16-DelScene-2.webp";
+document.head.appendChild(gfg);
+var ug = document.createElement('link');
+ug.rel = "dns-prefetch";
+ug.href="https://spat-cloud.github.io/data/HarScript/Ads/Thumbnail 1.png";
+document.head.appendChild(ug);
+var vaja = document.createElement('link');
+vaja.rel = "dns-prefetch";
+vaja.href="https://spat-cloud.github.io/data/HarScript/Ads/Deleted-Thumbnail.png";
+document.head.appendChild(vaja);
+var oza = document.createElement('link');
+oza.rel = "dns-prefetch";
+oza.href="https://spat-cloud.github.io/data/HarScript/Ads/Buri-Buri-1.webp";
+document.head.appendChild(oza);
+}
 function Vf(x){x.parentElement.parentElement.style.display="none";}
 function start(){
     setTimeout(()  => HAdv("https://spat-cloud.github.io/data/HarScript/Shinchan-Movie-16-DelScene-2.webp" , "Crayon Shin chan Hero Of Kinpoko   Movie 16 2008 1080p Deleted scene  002","https://youtu.be/pkS-Q97ctOc" , "Watch Now For Free"), 2000);
