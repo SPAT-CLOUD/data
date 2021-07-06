@@ -92,7 +92,7 @@ border:2px solid #fff;
    #Person:hover #tip{
        visibility:visible;
    }
-   #Left{
+   #Left-Message{
        display:none;
        padding:10px 20px;
        color:#fff;
