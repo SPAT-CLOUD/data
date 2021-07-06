@@ -67,7 +67,7 @@ display:inline-block;
        background-color:#FFFFFF;
        position:fixed;
    }
-   *:hover #Settings {
+   *:hover #Controls{
        visibility:visible;
    }
    /*#Settings:hover{
