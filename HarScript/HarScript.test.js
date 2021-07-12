@@ -8,11 +8,7 @@ function HAndriod(){var gh = navigator.platform;if(gh.charAt(0)=="L"){return "Ye
 function HWin(){var h = navigator.platform; if(h.charAt(0) == "W"){return "Yes";} return "No";}
 function HMac(){var j = navigator.platform; if(j.charAt(0) == "M"){return "Yes";} return "No";}
 
-function app(){ var v = document.createElement('script');
-v.type="text/javascript";
-v.src="https://spat-cloud.github.io/data/HarScript/Advertising.js";
-document.head.appendChild(v);}
-app();
+
   
      
   function HFullScr(x){
