@@ -66,7 +66,7 @@ Color:#FFF;
             Color:#FFF;
         }
     }
-#HarScript-0008{background-Color:Red; Margin-Left:16Px;Color:Yellow; Animation:Warning 0.8s Infinite;}
+#HarScript-0008{background-Color:Red;font-size:20px; Margin-Left:16Px;Color:Yellow; Animation:Warning 0.8s Infinite;}
  
 button#HarScript-0032{Color:#FFF;
 background-Color:TRANSPARENT;font-weight:bold;border:none;border-radius:4px;font-size:16px;float:Right;Right:2px; bottom:2px; position:absolute;}
