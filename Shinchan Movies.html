@@ -35,10 +35,11 @@
 
     <script type="application/javascript">
    function getIP(json){var Y = document.getElementById("1");
-var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;  
+//var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;  
    
-Y.value = ui;
-/* "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;*/}   
+Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org;
+}   
+    
     </script>
     <script>
 
