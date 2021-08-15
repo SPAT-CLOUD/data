@@ -34,7 +34,7 @@
     </style>
 
     <script type="application/javascript">
-   function getIP(json){var Y = document.getElementById("1");Y.value =  "ISP" + ":" + json.isp + "<br>" + "PIP" + ":" + json.ip + "<br>" + "<font color='Red'>" + "city" + ":" + json.city + "</font>" + "<br>" + "hostname" +  ":" + json.hostname + "<br>" + "<font color='green'>" + "Org" + ":" + json.org ;}   
+   function getIP(json){var Y = document.getElementById("1");Y.value =  "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;}   
     </script>
     <script>
 
@@ -64,6 +64,6 @@
     </form>   
         
     </body>
-<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+<script type="application/javascript" src="https://json.geoiplookup.io?format=json&callback=getIP"></script>
 
 </html>
