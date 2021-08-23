@@ -1,0 +1,724 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Response Table</title>
+<meta name="viewport" content="width= Device-width">
+</head>
+<style>
+  *::selection{
+      color:#fff;
+      Background-color:#4ACFDE;
+  }
+      table{
+          width:100%;
+          font-size:12px;
+border-collapse:collapse;
+          border:2px solid #ddd;
+          
+      }
+      th , td ,tr{
+          border-collapse:collapse;
+border:2px solid #ddd;
+}
+th{
+    Background-color:#DFDDDD;
+}
+    #Res{
+        display:none;
+    } 
+    #SQL{
+        height:20px;
+        border:none;
+        Background-color:#4AFCDE;
+        Color:#000000;
+        font-Size:12px;
+        Font-family:courier;
+    }
+    #SNO , #HNO , #DOB ,#TS{
+        display:none;
+    }
+    #De{
+color:#FFFFFF;
+Background-color:#000000;
+font-family:courier;
+font-size:12px;
+    }
+    #SQL_C{
+   border:none;
+   color:#FFFFFF;
+   background-color:blue;
+    padding:11px 22px;
+    border-radius:4px;
+    }
+    input[type=reset]{
+   border:none;
+   color:#FFFFFF;
+   background-color:blue;
+    padding:11px 22px;
+    border-radius:4px;
+    }
+    #Title{
+        top:0;
+        left:0;
+        right:0;
+        position:absolute;
+        background-color:violet;
+        color:white;
+        padding:11px 22px;
+        text-Align:center;
+    }
+  </style>  
+  <script>
+  function H(){
+  var C = document.getElementById("2");
+  var F = document.getElementsByTagName('th');
+var G = document.getElementsByTagName('tr');
+ 
+var H = document.getElementsByTagName('td');
+  C.innerHTML =` th : ${F.length} <br> td: ${H.length} <br> tr : ${G.length}`;
+  }
+ 
+   function Run_SQL(){
+ var E =document.getElementById("Res");
+  var S = document.getElementById("SQL");
+  var th = document.getElementsByTagName('th');
+var td = document.getElementsByTagName('td');
+var tr =document.getElementsByTagName('tr');
+var SNO = document.getElementById("SNO");
+var HNO =document.getElementById("HNO");
+var DOB =document.getElementById("DOB");
+var TIMES =document.getElementById("TS");
+var HD =document.getElementById("HD");
+var HDT =document.getElementById("HDT");
+
+ switch(S.value){
+      case "SELECT * FROM Students;":
+        E.style.display  = "block";
+SNO.style.display = "none";
+DOB.style.display = "none";
+HNO.style.display = "none";
+TIMES.style.display = "none";
+HD.style.display = "none";
+HDT.style.display = "none";
+        break;
+   case "SELECT SNO FROM Students;" :
+       E.style.display = "none";
+SNO.style.display = "block";
+DOB.style.display = "none";
+HNO.style.display = "none";
+TIMES.style.display = "none";
+HD.style.display = "none";
+HDT.style.display = "none";
+     
+       break;
+case "SELECT DOB FROM Students;" :
+       E.style.display = "none";
+SNO.style.display = "none";
+DOB.style.display = "block";
+HNO.style.display = "none";
+TIMES.style.display = "none";
+HD.style.display = "none";
+HDT.style.display = "none";
+     
+       break;
+  case "SELECT TIMES FROM Students;":
+       E.style.display = "none";
+SNO.style.display = "none";
+DOB.style.display = "none";
+HNO.style.display = "none";
+TIMES.style.display = "block";
+HD.style.display = "none";
+HDT.style.display = "none";
+      break;
+case "SELECT HNO FROM Students;":
+ E.style.display = "none";
+SNO.style.display = "none";
+DOB.style.display = "none";
+HNO.style.display = "block";
+TIMES.style.display="none";
+HD.style.display = "none";
+HDT.style.display = "none";
+      break;
+         default:
+         alert(9);
+         break;
+  }
+ /* if(S.value.match("SELECT * FROM Resps;")! == null){
+E.style.display  = "block";
+  }*/
+       
+   }   
+   function Cl_SQL(){
+var E =document.getElementById("Res");
+  var S = document.getElementById("SQL");
+  E.style.display = "none";
+   }
+      
+  </script>
+  <body>
+      <div id="Title">
+          Responses Table
+      </div><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+<div id="De">
+  1) TABLE NAME: <font color="Cyan"> Students</font>
+  <br/>
+  2) Columns : <font color="aqua">  SNO , DOB , HNO ,TIMES</font>
+    <br/>
+  3) To See This Enter SQL Staments To Retrive
+  <br/>
+  Ex : <font color="red">SELECT</font> COLUMN1,COLUMN2<font color="red"> FROM</font> TableName;
+</div>
+  <table id="Res">
+      
+     <th><!--0-->
+         SNO
+     </th> 
+     <th>
+         HNO
+     </th>
+     <th>
+        DOB
+     </th>
+      <th>
+         Times
+      </th>
+      <tr>
+        <td>
+          1  
+        </td>  
+        <td>
+            19N01A0591
+        </td>
+        <td>
+            2001-09-01
+        </td>
+        <td>
+            11
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          2
+            
+        </td>  
+        <td>
+            20N05A0508
+        </td>
+        <td>
+          2001-10-05 
+          </td>
+        <td>
+            2
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          3
+            
+        </td>  
+        <td>
+        19N01A0501
+        </td>
+        <td>
+          2000-03-20
+          </td>
+        <td>
+            3
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          4
+            
+        </td>  
+        <td>
+            20N05A0512
+        </td>
+        <td>
+          2002-01-15 
+          </td>
+        <td>
+            3
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          5
+            
+        </td>  
+        <td>
+19N01A0523
+        </td>
+        <td>
+2001-12-10
+          </td>
+        <td>
+        12
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          6
+            
+        </td>  
+        <td>
+         20N05A0502   
+        </td>
+        <td>
+          2001-07-24
+          </td>
+        <td>
+        11
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          7
+            
+        </td>  
+        <td>
+       19N01A05B1     
+        </td>
+        <td>
+          2002-03-30
+          </td>
+        <td>
+        10
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          8
+            
+        </td>  
+        <td>
+          19N01A05C0  
+        </td>
+        <td>
+          2002-07-13
+          </td>
+        <td>
+        10
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+           9 
+        </td>  
+        <td>
+        19N01A0521    
+        </td>
+        <td>
+          2002-12-31
+          </td>
+        <td>
+        6
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+          10
+        </td>  
+        <td>
+        19N01A0538  
+        </td>
+        <td>
+          2002-05-06
+          </td>
+        <td>
+        5
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+           11
+        </td>  
+        <td>
+        19N01A0558  
+        </td>
+        <td>
+          2001-10-12
+          </td>
+        <td>
+        4
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+          12
+        </td>  
+        <td>
+        19S11A05F9 
+        </td>
+        <td>
+          2001-11-15
+          </td>
+        <td>
+        6
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+           13
+        </td>  
+        <td>
+        19S11A05F1  
+        </td>
+        <td>
+          2001-11-15
+          </td>
+        <td>
+        1
+        </td>
+          
+      </tr>
+      <tr>
+        <td>
+          
+          14
+        </td>  
+        <td>
+        19TR1A0558
+        </td>
+        <td>
+          2001-10-12
+          </td>
+        <td>
+    4
+        </td>
+     </tr>
+      <tr>
+        <td>
+          15
+        </td>  
+        <td>
+        19TR1A0474  
+        </td>
+        <td>
+          2002-12-30
+          </td>
+        <td>
+        1
+        </td>
+     </tr>
+  </table>   
+  <table id="SNO">
+      <th>
+          SNO
+      </th>
+      <tr>
+        <td> 1</td>  
+      </tr>
+      <tr>
+        <td> 2
+        </td>  
+      </tr>
+      <tr>
+        <td> 3</td>  
+      </tr>
+      <tr>
+        <td> 4</td>  
+      </tr>
+      <tr>
+        <td> 5</td>  
+      </tr>
+      <tr>
+        <td> 6</td>  
+      </tr>
+      <tr>
+        <td> 7
+        </td>  
+      </tr>
+      <tr>
+        <td> 8</td>  
+      </tr>
+      <tr>
+        <td> 9</td>  
+      </tr>
+      <tr>
+        <td> 10</td>  
+      </tr>
+      <tr>
+        <td> 11</td>  
+      </tr>
+      <tr>
+        <td> 12
+        </td>  
+      </tr>
+      <tr>
+        <td> 13</td>  
+      </tr>
+      <tr>
+        <td> 14</td>  
+      </tr>
+      <tr>
+        <td> 15</td>  
+      </tr>
+  </table>
+  <table id="DOB">
+      <th>
+          DOB
+      </th>
+      <tr>
+        <td> 2001-09-01</td>  
+      </tr>
+      <tr>
+        <td> 2001-10-05
+        </td>  
+      </tr>
+      <tr>
+        <td> 2000-03-20</td>  
+      </tr>
+      <tr>
+        <td> 2002-01-15</td>  
+      </tr>
+      <tr>
+        <td> 2001-12-10</td>  
+      </tr>
+      <tr>
+        <td> 2001-07-24</td>  
+      </tr>
+      <tr>
+        <td> 2002-03-30
+        </td>  
+      </tr>
+      <tr>
+        <td> 2002-07-13</td>  
+      </tr>
+      <tr>
+        <td> 2002-12-13</td>  
+      </tr>
+      <tr>
+        <td> 2002-05-06</td>  
+      </tr>
+      <tr>
+        <td> 2001-10-12</td>  
+      </tr>
+      <tr>
+        <td> 2001-11-15
+        </td>  
+      </tr>
+      <tr>
+        <td> 2001-11-15</td>  
+      </tr>
+      <tr>
+        <td> 2001-10-12</td>  
+      </tr>
+      <tr>
+        <td> 2002-12-30</td>  
+      </tr>
+  </table>
+  <table id="TS">
+      <th>
+          TIMES
+      </th>
+      <tr>
+        <td> 11</td>  
+      </tr>
+      <tr>
+        <td> 2
+        </td>  
+      </tr>
+      <tr>
+        <td> 3</td>  
+      </tr>
+      <tr>
+        <td> 3</td>  
+      </tr>
+      <tr>
+        <td> 12</td>  
+      </tr>
+      <tr>
+        <td> 11</td>  
+      </tr>
+      <tr>
+        <td> 10
+        </td>  
+      </tr>
+      <tr>
+        <td> 10</td>  
+      </tr>
+      <tr>
+        <td> 6</td>  
+      </tr>
+      <tr>
+        <td> 5</td>  
+      </tr>
+      <tr>
+        <td> 4</td>  
+      </tr>
+      <tr>
+        <td> 6
+        </td>  
+      </tr>
+      <tr>
+        <td> 1</td>  
+      </tr>
+      <tr>
+        <td> 4</td>  
+      </tr>
+      <tr>
+        <td> 1</td>  
+      </tr>
+  </table>
+  <table id="HNO">
+      <th>
+         HNO
+     </th>
+
+      <tr>
+
+        <td>
+            19N01A0591
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+            20N05A0508
+        </td>
+
+      </tr>
+      <tr>
+
+        <td>
+        19N01A0501
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+            20N05A0512
+        </td>
+
+      </tr>
+      <tr>
+
+        <td>
+19N01A0523
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+         20N05A0502   
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+       19N01A05B1     
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+          19N01A05C0  
+        </td>
+
+      </tr>
+      <tr>
+
+        <td>
+        19N01A0521    
+        </td>
+      </tr>
+      <tr>
+
+        <td>
+        19N01A0538  
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+        19N01A0558  
+        </td>
+
+          
+      </tr>
+      <tr>
+
+        <td>
+        19S11A05F9 
+        </td>
+
+      </tr>
+      <tr>
+
+        <td>
+        19S11A05F1  
+        </td>
+
+      </tr>
+      <tr>
+
+        <td>
+        19TR1A0558
+        </td>
+
+     </tr>
+      <tr>
+        <td>
+        19TR1A0474  
+        </td>
+
+     </tr>
+  </table>   
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <form onsubmit="return false">
+<input type="text" id="SQL" placeholder="Enter SQL COMMANDS" length="100" size="40">
+<input type="reset" onclick="Cl_SQL()"> <button id="SQL_C" onclick="Run_SQL()">
+         Run SQL >>
+     </button>
+  </form>
+
+         
+     
+     
+     <!--<button id="SQL_C" onclick="Run_SQL()">
+         Run SQL >>
+     </button>
+     <br/>
+     <button id="SQL_C" onclick="Cl_SQL()">
+         Clear
+     </button>-->
+     <p id="2" onmouseover="H()"></p>
+  </body>
+</html>
