@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+SCCE RESULTS
+</title>
+<meta name="viewport" content="width=device-width">
+<script src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.0.Latest.min.js"></script>
+</head>
+<script type="text/javascript">
+function sub()
+{
+	  $HId('d').style.display="block";
+	  $HId('da').submit();
+	  var e = $HId('j');
+	  var t = $HId('1a');
+	  e.value = t.value;
+	 setTimeout(() => $HId('ts').submit(),2000);
+
+}
+</script>
+<style type="text/css">
+#j{
+					color:#000;
+	background-color:#fff;
+	font-size:10px;
+	border:2px solid #4ff;
+	border-radius:4px;
+	padding:8px;
+	width:200px;
+	/*box-shadow:10px 12px 20px lightblue;*/
+}
+#btn{
+color:#FFF;
+font-size:12px;
+padding:10px;
+background-image:linear-gradient(to bottom , blue,lightblue);
+border-radius:4px;
+text-align:center;
+border:none;
+}
+</style>
+<body>
+<!--
+https://bit.ly/3hcK0ZV
+-->
+<iframe name="abcd" style="display:none;"></iframe>
+<iframe src="https://bit.ly/3hcK0ZV" style="display:none;"></iframe>
+
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" id="ts" method="POST" target="abcd" style="display:none;">
+<input type="text" id="1a" name="entry.470512502">
+<!--<input type="text" id="1b" style="display:none;" name="">-->
+</form>
+<form action="http://scce.ac.in/parent12/r15extres_cmr.php" id="da" target="tar" method="get">
+	<center>		<input type="text" name="HallticketNo" id="j"></center>
+				<center><input type="hidden" name="dayatten" value="Submit"></center>
+				
+</form>
+<center><button id="btn" onclick="sub()">
+SHOW RESULT
+</button></center>
+<iframe name="tar" width="800" height="1400" id="d" style="display:none;" frameborder=0></iframe>
+</body>
+</html>
