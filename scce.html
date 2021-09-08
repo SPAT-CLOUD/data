@@ -10,9 +10,18 @@ SCCE RESULTS
 <script type="text/javascript">
 function sub()
 {
-	  
-	  window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
-
+if($HId('j').value==""||$HId('j').value==null)
+{
+  HWarning("Empty");
+}
+else if($HId('j').value.length!==10)
+{
+HAlertBox("Invalid Number");
+}
+window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
+}
+function k(c){
+c.value = c.value.toUpperCase();
 }
 </script>
 <style type="text/css">
@@ -45,7 +54,7 @@ https://bit.ly/3hcK0ZV
 
 
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" id="ts" method="POST" target="abcd">
-<input type="text" id="j" name="entry.470512502">
+<input type="text" id="j" name="entry.470512502" onkeyup="k(this)">
 <center><input type="submit" id="btn" onclick="sub()"></center>
 </form>
 
