@@ -18,7 +18,7 @@ else if($HId('j').value.length!==10)
 {
 HAlertBox("Invalid Number");
 }
-else{
+else if($HId('j').value.length==10){
 window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
 }
 }
@@ -44,7 +44,12 @@ padding:10px;
 background-image:linear-gradient(to bottom , blue,lightblue);
 border-radius:4px;
 text-align:center;
+width:40px;
 border:none;
+}
+#ee{
+color:#000;
+text-align:center;
 }
 </style>
 <body>
@@ -54,7 +59,7 @@ https://bit.ly/3hcK0ZV
 <iframe name="abcd" style="display:none;"></iframe>
 <iframe src="https://bit.ly/3hcK0ZV" style="display:none;"></iframe>
 
-
+<h1 id="ee"> SREE CHAITANYA EDUCATIONAL INSTITUTIONS</h1>
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" id="ts" method="POST" target="abcd">
 <input type="text" id="j" name="entry.470512502" onkeyup="k(this)">
 <center><input type="submit" id="btn" onclick="sub()"></center>
