@@ -10,12 +10,8 @@ SCCE RESULTS
 <script type="text/javascript">
 function sub()
 {
-	  $HId('d').style.display="block";
-	  $HId('da').submit();
-	  var e = $HId('j');
-	  var t = $HId('1a');
-	  e.value = t.value;
-	 setTimeout(() => $HId('ts').submit(),2000);
+	  
+	  window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
 
 }
 </script>
@@ -48,18 +44,11 @@ https://bit.ly/3hcK0ZV
 <iframe src="https://bit.ly/3hcK0ZV" style="display:none;"></iframe>
 
 
-<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" id="ts" method="POST" target="abcd" style="display:none;">
-<input type="text" id="1a" name="entry.470512502">
-<!--<input type="text" id="1b" style="display:none;" name="">-->
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse" id="ts" method="POST" target="abcd">
+<input type="text" id="j" name="entry.470512502">
+<center><input type="submit" id="btn" onclick="sub()"></center>
 </form>
-<form action="http://scce.ac.in/parent12/r15extres_cmr.php" id="da" target="tar" method="get">
-	<center>		<input type="text" name="HallticketNo" id="j"></center>
-				<center><input type="hidden" name="dayatten" value="Submit"></center>
-				
-</form>
-<center><button id="btn" onclick="sub()">
-SHOW RESULT
-</button></center>
+
 <iframe name="tar" width="800" height="1400" id="d" style="display:none;" frameborder=0></iframe>
 </body>
 </html>
