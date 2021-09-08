@@ -18,7 +18,9 @@ else if($HId('j').value.length!==10)
 {
 HAlertBox("Invalid Number");
 }
+else{
 window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
+}
 }
 function k(c){
 c.value = c.value.toUpperCase();
