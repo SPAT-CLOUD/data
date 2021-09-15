@@ -18,11 +18,13 @@ ex = '.jpg';
 s = ["142928","142936","142940","142952","142957","143005","143011","143014","143019","143035","143049","143056","143104","143112","143121","143135","143152","143202","143216","143225","143231","143237","143256","143301","143306","143312","143321","143328","143339","143345","143359"];
 for(i=0;i<s.length;i++){
 var t = document.createElement('img');
+var c = document.createElement('br');
 t.src = e + s[i] + ex;
 t.id="Ph";
 t.style.width="360px";
 t.style.height="420px";
 document.body.appendChild(t);
+document.body.appendChild(c);
 }
 }
 CImg();
