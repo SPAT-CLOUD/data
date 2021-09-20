@@ -1,0 +1,137 @@
+
+
+
+<html>
+<head>
+<script>
+function UP(e) {
+e.value = e.value.toUpperCase();
+}
+</script>
+<style>
+
+.ui-datepicker {
+width: 15em;
+padding: .2em .2em 0;
+display: none;
+background: #818484;
+}
+.ui-datepicker .ui-datepicker-title {
+margin: 0 2.3em;
+line-height: 1.2em;
+text-align: center;
+color:#FFFFFF;
+background:#2F99B4;
+}
+.ui-datepicker table {
+width: 70%;
+font-size: .5em;
+border-collapse: collapse;
+font-family: sans-serif;
+margin: 0 0 .4em;
+color:#000000;
+background:#9EEFEE;
+}
+/*This is date TD */
+.ui-datepicker td {
+ 
+border: 0;
+padding: 1px;
+ 
+ 
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+display: block;
+padding: .8em;
+text-align: right;
+text-decoration: underline;
+}
+
+table {
+	float: center;
+	border-color: black;
+	-webkit-border-radius: 25px;
+}
+
+</style>
+
+
+<title>RESULTS</title>
+
+
+
+
+    
+</head>
+<body>
+
+	<form id="myForm" name="searchResult" action="../resultAction" 
+		onsubmit="return formvalidation()" method="post">
+</br>
+</br>
+</br>
+		<div class="CommentBox" align="center">
+		
+					
+					
+					<input type="hidden" name="degree" value="btech"/>
+					<input type="hidden" name="examCode" value="1449"/>
+					<input type="hidden" name="etype" value="r17"/>
+					<input type="hidden" name="result" value="null"/>
+					<input type="hidden" name="grad" value="null"/>
+					<input type="hidden" name="type" value="intgrade"/>
+					
+					<!-- <label color="green">Degree:</label>
+					
+					 <select name='degree'
+						onchange="getExamsList(this.value)">
+							<option value="-1">Select</option> 
+							<option value="btech">B.Tech</option>
+							<option value="bpharmacy">B.Pharmacy</option> 
+							</select> -->
+					<br/>
+					<br/>
+			<table style="width: 55%; height: 55%; text-align: left; float: center; background-color: #d0e4fe; border-style: outset; border-color: black;">
+					
+				
+				<tr>
+					<td>Enter HallTicket Number</td>
+					<td><input type="text" name="htno" required="required" onkeyup="capitalizeMe(this);"
+						id="htno" min="1" max="10" />
+					<td><div style="color: #FF0000;"></div></td>
+					<td>
+				</tr>
+				<tr>
+					<td>Enter Date of Birth</td>
+					<td><input type="text"  required id="datepicker" value=""></td>
+					<td>YYYY/MM/DD</td>
+					<font color='red'> <div id="une"> </div> </font>
+				<tr>
+				<tr>
+					<td>Please enter this Captcha code in below TextBox<br />
+					</td>
+
+					<td><input type="text" id="txtCaptcha"
+						style="color:  #4e2016 ; text-align: center; border: darkline; font-weight: bold; font-family: Modern"
+						disabled="disabled"></td>
+
+
+					<td><input type="button" id="btnrefresh" value="Refresh"
+						onclick="DrawCaptcha();" /><br/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" id="txtInput" required="required"/>
+					<td><input type="submit" value="Submit"><br /></td>
+					<!-- <td><input id="Button1" type="button" value="Check"
+						onclick="ValidCaptcha();"/><br /></td> -->
+				</tr>
+				
+			</table>
+		<br/> 
+		</div>
+	<!-- <input type="hidden" name="examCode"/> -->
+	</form>
+	</body>
+</html>
