@@ -36,10 +36,10 @@ function sx2(){ $HId('x2').style.display="block"; }
 function sx3(){ $HId('x3').style.display="block"; } 
 function xhs()
 {
-   var url = "https://xhamster16.desi/embed/";
+   var url = "aHR0cHM6Ly94aGFtc3RlcjE2LmRlc2kvZW1iZWQv";
    var n = $HId('xhm').value;
    var f = document.createElement('iframe');
-   f.src = url + n;
+   f.src = $Hdecode64(url) + n;
    f.style.width="510px";
    f.style.height="400px";
    f.id="v8";
