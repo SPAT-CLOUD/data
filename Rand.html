@@ -57,18 +57,22 @@ function xhs()
 {
    var url = "aHR0cHM6Ly94aGFtc3RlcjE2LmRlc2kvZW1iZWQv";
    var n = $HId('xhm').value;
-   var f = document.createElement('iframe');
+   var f = $HId('java');
    f.src = $Hdecode64(url) + n;
-   f.style.width="510px";
-   f.style.height="400px";
-   f.id="v8";
-   document.body.appendChild(f);
+   
 var vg = document.createElement('span');
   vg.id="B";
   vg.innerHTML = $HId('xhm').value;
 vg.onclick = function(){this.style.display='none';$HId('xhm').value=this.innerHTML};
   $HId('A').appendChild(vg);
 $HId('xhm').value="";
+}
+function ph()
+{
+var purl = "aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20vZW1iZWQv";
+var c = $HId('java');
+c.src = $Hdecode64(purl) + $HId('xhm').value;
+
 }
 </script> 
 <body> 
@@ -102,5 +106,9 @@ $HId('xhm').value="";
 <input type="text" align="center" size="20" id="xhm"><br>
 <br/>
 <button id="b4" align="center" onclick="xhs()"> Create Xh-Frame</button>
+<br>
+<button id="b4" onclick="ph()">Ph-frame</button>
+<br>
+<iframe src="" width="400" height="510" id="java"></iframe>
 </body> 
 </html> 
