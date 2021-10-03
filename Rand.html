@@ -41,7 +41,6 @@ width:140px;
     border-left:2px;
     border-right:2px;
     border-radius:4px;
-display:inline-block;
 }
 
 </style> 
@@ -67,7 +66,9 @@ function xhs()
 var vg = document.createElement('span');
   vg.id="B";
   vg.innerHTML = $HId('xhm').value;
+vg.onclick = function(){this.style.display='none';$HId('xhm').value=this.innerHTML};
   $HId('A').appendChild(vg);
+$HId('xhm').value="";
 }
 </script> 
 <body> 
