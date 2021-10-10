@@ -7,18 +7,18 @@ class HarScript
     }
     CreateAlert()
     {
-   var c,d;
-   c = document.createElement('div');
-   c.id="5";
-   c.setAttribute("style","top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.6);position:fixed;width:100%;height:100%;display:none");
-   document.body.appendChild(c);
-   d = document.createElement('iframe');
-   d.id="c";
-   d.setAttribute("style","pointer-events:none;color:#DDEFDA;word-wrap:break-word;left:25px;right:25px;margin:15% auto;-user-select:none;border:2px solid #ddd;border-radius:4px;background-color:#FFF;position:absolute;");
-   d.style.width="280px";
-   d.style.height="180px";
-   d.style.frameBorder="0";
-   c.appendChild(d);
+     var c,d;
+     c = document.createElement('div');
+     c.id="5";
+     c.setAttribute("style","top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.6);position:fixed;width:100%;height:100%;display:none");
+     document.body.appendChild(c);
+     d = document.createElement('iframe');
+     d.id="c";
+     d.setAttribute("style","pointer-events:none;color:#DDEFDA;word-wrap:break-word;left:25px;right:25px;margin:15% auto;-user-select:none;border:2px solid #ddd;border-radius:4px;background-color:#FFF;position:absolute;");
+     d.style.width="280px";
+     d.style.height="180px";
+     d.style.frameBorder="0";
+     c.appendChild(d);
     }
     CreateAlertBox() 
    {
@@ -42,24 +42,26 @@ class HarScript
     RightButtonOk.onclick = function() {this.parentElement.parentElement.style.display="none";};
     InnerHAlertBox.appendChild(RightButtonOk);
     }
-HAlertBox(html) {
+    HAlertBox(html) 
+   {
     var Ty = document.getElementById("HAlertBox");
     var der = document.getElementById("InnerHAlertBox");
     var AlertHtml = document.getElementById("Content");
     Ty.style.display = "block";
     der.style.animation = "comed 2s 1";
     AlertHtml.innerHTML = html;
-}
+   }
     HAlert(cpp)
     {
-var y,z;
-  y = document.getElementById('5');
-  z = document.getElementById('c');
-  y.style.display="block";
-  y.onclick=function(){this.style.display="none";};
-  z.srcdoc=cpp;
+     var y,z;
+     y = document.getElementById('5');
+     z = document.getElementById('c');
+     y.style.display="block";
+     y.onclick=function(){this.style.display="none";};
+     z.srcdoc=cpp;
     }
-CreateWarning() {
+    CreateWarning()
+    {
     var Cg = document.createElement("div");
     Cg.id = "HarScript-0002";
     document.body.appendChild(Cg);
@@ -81,8 +83,9 @@ CreateWarning() {
     QqR.onclick = function() {this.parentElement.parentElement.style.display="none";};
     QqR.innerHTML = "Ok";
     ZRt.appendChild(QqR);
-}
-HWarning(html) {
+   }
+   HWarning(html) 
+   {
     var X, Y;
     X = document.getElementById("HarScript-0002");
     X.style.display = "Block";
@@ -92,6 +95,6 @@ HWarning(html) {
     //X = document.getElementById("HarScript-Warn-Outer");
     Y.innerHTML = html;
     window.navigator.vibrate(2000);
-}
+   }
  
 }
