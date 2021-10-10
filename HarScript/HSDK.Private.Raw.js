@@ -91,24 +91,7 @@ HWarning(html) {
     //Y = document.getElementById("HarScript-Warn-Box");
     //X = document.getElementById("HarScript-Warn-Outer");
     Y.innerHTML = html;
-    HVibrate(4);
+    window.navigator.vibrate(2000);
 }
- $HId(r) {
-    
-    return document.getElementById(r);
-}
- $HVanish(v) {
-    
-    return $HId(v).style.display = "none";
-}
-
-$HShow(c) {
-    
-    return $HId(c).style.display = "block";
-}
-
- $HTag(t) {
-    
-    return document.getElementsByTagName(t);
-}
+ 
 }
