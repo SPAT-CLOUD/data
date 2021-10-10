@@ -1,4 +1,4 @@
-export default class HarScript
+class HarScript
 {
     constructor(x , t)
     {
