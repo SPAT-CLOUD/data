@@ -98,3 +98,17 @@ class HarScript
    }
  
 }
+class HS extends HarScript
+{
+   super(x,t)
+   {
+     x = this.x;
+     t = this.t;
+   }
+   run()
+   {
+     this.CreateAlertBox();
+     this.CreateWarning();
+     this.CreateAlert();
+   }
+}
