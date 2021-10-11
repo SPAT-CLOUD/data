@@ -42,7 +42,7 @@ class HarScript
     RightButtonOk.onclick = function() {this.parentElement.parentElement.style.display="none";};
     InnerHAlertBox.appendChild(RightButtonOk);
     }
-    HAlertBox(html) 
+    HAlertBox(html='HAlertBox') 
    {
     var Ty = document.getElementById("HAlertBox");
     var der = document.getElementById("InnerHAlertBox");
@@ -51,7 +51,7 @@ class HarScript
     der.style.animation = "comed 2s 1";
     AlertHtml.innerHTML = html;
    }
-    HAlert(cpp)
+    HAlert(cpp='HAlert')
     {
      var y,z;
      y = document.getElementById('5');
@@ -84,7 +84,7 @@ class HarScript
     QqR.innerHTML = "Ok";
     ZRt.appendChild(QqR);
    }
-   HWarning(html) 
+   HWarning(html='HWarning') 
    {
     var X, Y;
     X = document.getElementById("HarScript-0002");
