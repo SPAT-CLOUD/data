@@ -1,0 +1,150 @@
+<!doctype HTML>
+<html>
+<head>
+ <title>Sample</title>
+ <meta name="viewport" content="width=device-width">
+</head>
+ <body>
+  <!--<div id="max">
+  
+      <div id="con">
+   <div id="cl"><button id="btn">&times;</button>
+   </div>       
+  Welcome To HarScript Syestem function created java.util.* is False GUI Graphical User Interface Program Heavy duty but Less Draw over Capacity For local Purpose not for All Sites  you can use in your site but not on other sites this is capable of drawover only Some Elements But not As All Elemenrs      
+      </div>
+  </div>-->
+  <button onclick="HDialog()">open dialog</button>
+  </body>
+
+<style>/*#max
+{
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.6);
+    position:fixed;
+}
+#con
+{
+   /* text-align:left;*/
+   /*user-select:none;
+   word-spacing:4px;
+    font-size:14px;
+    overflow-y:scroll;
+    position:absolute;
+    margin:10% auto;
+    color:#00D;
+    font-weight:500;
+    background-color:#fff;
+    top:0px;
+    left:0;
+    right:0;
+    width:50%;
+    border-radius:4px;
+    padding:4em 4em;
+}*/
+/*#cl{
+background-image:linear-gradient(to bottom, black , SILVER);
+top:0;
+left:0;
+right:0;
+padding:.3em;
+opacity:4;
+position:absolute;
+}*/
+/*#btn
+{
+    border:none;
+    position:relative;
+    border-radius:4px;
+    float:right;
+    padding:.2em .4em;
+    right:2px;
+    color:#FFF;
+    Background-image:linear-gradient(to bottom , red,darkred);
+    width:20px;
+}*/</style><script>/*Here write your javascript code*/
+(function()
+{
+    var a , b , c , d ,e;
+    a = document.createElement('div');
+    a.id="main-Dialog";
+    a.setAttribute("style","width:100%;height:100%;top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.6);position:fixed;display:none;");
+    document.body.appendChild(a);
+    b = document.createElement('div');
+    b.id="con";
+    b.setAttribute("style","user-select:none;word-spacing:4px;font-size:14px;overflow-y:scroll;position:absolute;margin:5% auto;color:#000;font-weight:500;background-color:#fff;top:0px;left:0;right:0;width:50%;border-radius:4px;padding:4em 4em;");
+    a.appendChild(b);
+    c = document.createElement('div');
+    c.id="cl";
+    c.setAttribute("style","background-image:linear-gradient(to bottom,#DDD,blue);top:0;left:0;right:0;padding:.3em;opacity:4;position:absolute;color:#FFF;font-weight:bold;font-size:22px;display:block;");
+    c.innerHTML = "HarScript Window";
+    b.appendChild(c);
+    d = document.createElement('button');
+    d.id="btn";
+    d.setAttribute("style","border:1px solid #FFF;position:relative;border-radius:4px;float:right;padding:.2em .4em;right:2px;color:#FFF;Background-image:linear-gradient(to bottom , red,darkred);width:20px;");
+    d.onclick=function(){this.parentElement.parentElement.parentElement.style.display='none';};
+    c.appendChild(d);
+    e = document.createElement('p');
+    e.id="v";
+    e.setAttribute("style","color:#000;font-size:10px;line-height:14px;overflow-y:scroll;padding:.01em;");
+    b.appendChild(e);
+})();
+
+function HDialog(c="HDialog function Called SucessFully")
+{
+    var x, f,g,h;
+    x = document.getElementById('main-Dialog');
+    x.style.display="block";
+    f = document.getElementById('v');
+    g = document.getElementById('cl');
+    h = document.getElementById('btn');
+    g.style.display = "block";
+    h.style.display="block";
+    h.innerHTML = "&times;";
+    f.style.display="block";
+    f.innerHTML=c;
+    
+}
+function g(x="9",y="9")
+{
+  var z , a , b, c, d, e, f, g, res, eqn;
+  z = x.length;
+  a = parseInt(x);
+  b = parseInt(y);
+  c = a - 1;
+  d = Math.pow(10,z);
+  e = d - a;
+  f = c.toString();
+  g = e.toString();
+  res = f + g;
+  eqn = x + "&times;" + y + "=" + "[" + y + "-" + "1" + "]" + "+" + "10" + "<sup>" + z + "</sup>" + "-" + + y;
+  return eqn;
+
+}
+HDialog("Welcome To HarScript HDialog function created java.util.* is False GUI Graphical User Interface Program Heavy duty but Less Draw over Capacity For local Purpose not for All Sites  you can use in your site but not on other sites this is capable of drawover only Some Elements But not As All Elements");
+/*try
+{
+      class c
+      {
+            constructor(x,y)
+            {
+                x = this.x;
+                y = this.y;
+             }
+             protected v()
+            {
+                return 5;
+             }
+       }
+       let h = new c();
+}
+   catch(e)
+   {
+   alert(e);
+   } */
+
+</script></html>
