@@ -3,6 +3,7 @@
 <head>
 <title> Response Table</title>
 <meta name="viewport" content="width= Device-width">
+<script src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.8.Latest.min.js"></script>
 </head>
 <style>
   *::selection{
@@ -70,74 +71,74 @@ font-size:12px;
   </style>  
   <script>
   function H(){
-  var C = document.getElementById("2");
-  var F = document.getElementsByTagName('th');
-var G = document.getElementsByTagName('tr');
+  var C = $HId("2");
+  var F = $HTag('th');
+var G = $HTag('tr');
  
-var H = document.getElementsByTagName('td');
-  C.innerHTML =` th : ${F.length} <br> td: ${H.length} <br> tr : ${G.length}`;
+var H = document.getElementsBy('td');
+  $HId('2').innerHTML =` th : ${F.length} <br> td: ${H.length} <br> tr : ${G.length}`;
   }
  
    function Run_SQL(){
- var E =document.getElementById("Res");
-  var S = document.getElementById("SQL");
-  var th = document.getElementsByTagName('th');
-var td = document.getElementsByTagName('td');
-var tr =document.getElementsByTagName('tr');
-var SNO = document.getElementById("SNO");
-var HNO =document.getElementById("HNO");
-var DOB =document.getElementById("DOB");
-var TIMES =document.getElementById("TS");
-var HD =document.getElementById("HD");
-var HDT =document.getElementById("HDT");
+ var E = $HId("Res");
+  var S = $HId("SQL");
+  var th = $HTag('th');
+var td = $HTag('td');
+var tr = $HTag('tr');
+var SNO = $HId("SNO");
+var HNO = $HId("HNO");
+var DOB = $HId("DOB");
+var TIMES = $HId("TS");
+var HD = $HId("HD");
+var HDT = $HId("HDT");
 
  switch(S.value){
       case "SELECT * FROM Students;":
-        E.style.display  = "block";
-SNO.style.display = "none";
-DOB.style.display = "none";
-HNO.style.display = "none";
-TIMES.style.display = "none";
-HD.style.display = "none";
-HDT.style.display = "none";
+        $HShow('Res');
+$HVanish('SNO');
+$HVanish('DOB');
+$HVanish('HNO');
+$HVanish('TS');
+$HVanish('HD');
+$HVanish('HDT');
         break;
    case "SELECT SNO FROM Students;" :
-       E.style.display = "none";
-SNO.style.display = "block";
-DOB.style.display = "none";
-HNO.style.display = "none";
-TIMES.style.display = "none";
-HD.style.display = "none";
-HDT.style.display = "none";
+       $HVanish('Res');
+$HShow('SNO');
+$HVanish('DOB');
+$HVanish('HNO');
+$HVanish('TS');
+$HVanish('HD');
+$HVanish('HDT');
      
        break;
 case "SELECT DOB FROM Students;" :
-       E.style.display = "none";
-SNO.style.display = "none";
-DOB.style.display = "block";
-HNO.style.display = "none";
-TIMES.style.display = "none";
-HD.style.display = "none";
-HDT.style.display = "none";
+       $HVanish('Res');
+$HVanish('SNO');
+$HShow('DOB');
+$HVanish('HNO');
+$HVanish('TS');
+$HVanish('HD');
+$HVanish('HDT');
      
        break;
   case "SELECT TIMES FROM Students;":
-       E.style.display = "none";
-SNO.style.display = "none";
-DOB.style.display = "none";
-HNO.style.display = "none";
-TIMES.style.display = "block";
-HD.style.display = "none";
-HDT.style.display = "none";
+       $HVanish('Res');
+$HVanish('SNO');
+$HVanish('DOB');
+$HVanish('HNO');
+$HShow('TS');
+$HVanish('HD');
+$HVanish('HDT');
       break;
 case "SELECT HNO FROM Students;":
- E.style.display = "none";
-SNO.style.display = "none";
-DOB.style.display = "none";
-HNO.style.display = "block";
-TIMES.style.display="none";
-HD.style.display = "none";
-HDT.style.display = "none";
+ $HVanish('Res');
+$HVanish('SNO');
+$HVanish('DOB');
+$HShow('HNO');
+$HVanish('TS');
+$HVanish('HD');
+$HVanish('HDT');
       break;
          default:
          alert(9);
@@ -149,9 +150,7 @@ E.style.display  = "block";
        
    }   
    function Cl_SQL(){
-var E =document.getElementById("Res");
-  var S = document.getElementById("SQL");
-  E.style.display = "none";
+$HVanish('Res');
    }
       
   </script>
