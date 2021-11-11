@@ -8,16 +8,24 @@
 <script async src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.9.Latest.min.js"></script>
   </head>
 <body>
-<div id="ig" style="color:Gold;word-wrap:pre;font-size:15px;background-color:#000;width:100%;overflow-x:scroll;height:auto;padding:.4em;" contentEditable="true">
-  function showImg(key)
-  {
-     var im = document.createElement('img');
-     im.src="http://scce.ac.in/n0/" + key.toUpperCase() + ".jpg";
-     im.style.width="100px";
-     im.style.height="114px";
-     document.body.appendChild(im);
+<div id="ig" style="color:Gold;word-wrap:pre;font-size:15px;background-color:#000;width:100%;overflow-x:scroll;height:auto;line-height:14px;padding:.4em;" contentEditable="true">
+function showImg(key)
+
+{
+     
+var im = document.createElement('img');
+     
+im.src="http://scce.ac.in/n0/" + key.toUpperCase() + ".jpg";
+     
+im.style.width="100px";
+     
+im.style.height="114px";
+     
+document.body.appendChild(im);
   }
-  showImg("19N01A05A4");//Add key=HALLTICKET NUMBER to Show photo
+  //Add key=HALLTICKET NUMBER to Show photo
+
+showImg("19N01A05A4");
 </div><br>
 <button onclick="cm()">Compile</button>
 </body>
