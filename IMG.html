@@ -47,25 +47,24 @@
 </head>
 <body>
 <div id="ig" style="color:Gold;font-family:courier;word-wrap:pre;font-size:15px;background-color:#000;width:100%;overflow-x:scroll;height:auto;line-height:28px;padding:.4em;" contentEditable="true">
-function showImg(key)
+<font color="yellow">function</font> showImg<font color="green">(</font><font color="orange"><i>key</i></font><font color="green">)</font><br>
 
-{
+{<br>
+     &nbsp;&nbsp;<font color="yellow">var</font> im = <font color="yellow">document</font>.<font color="#DDD">createElement</font><font color="green">(</font><font color="pink">'img'</font><font color="green">)</font>;
+    
+&nbsp;&nbsp;im.src=<font color="pink">"http://scce.ac.in/n0/"</font> + key.<font color="#DDD">toUpperCase()</font> +<font color="pink"> ".jpg"</font>;
      
-var im = document.createElement('img');
+&nbsp;&nbsp;im.<font color="#4AFFCD">style</font>.width=<font color="pink">"100px"</font>;
      
-im.src="http://scce.ac.in/n0/" + key.toUpperCase() + ".jpg";
+&nbsp;&nbsp;im.<font color="#4AFFCD">style</font>.height=<font color="pink">"114px"</font>;
      
-im.style.width="100px";
-     
-im.style.height="114px";
-     
-document.body.appendChild(im);
+&nbsp;&nbsp;<font color="yellow">document</font>.body.<font color="#DDD">appendChild</font>(im);<br>
  
  }
-
-  /*In place of "19N01A0571" YOU CAN ADD Sree Chaitanya students Hall ticket numbers*/<br>
 <br>
-showImg("19N01A0571");
+  <font color="lightGreen">/*In place of "19N01A0571" YOU CAN ADD Sree Chaitanya students Hall ticket numbers*/</font><br>
+<br>
+showImg(<font color="pink">"19N01A0571"</font>);
 </div><br>
 <button onclick="cm()">Compile</button>
 <iframe name="r" style="display:none;"></iframe>
