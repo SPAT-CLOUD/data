@@ -143,17 +143,13 @@
   
   function log()
   {
-      var fg = document.getElementById("Prompt");
-      var f = document.getElementById("logS");
-  				var g = document.getElementById("Un");
-  				var h = document.getElementById("Pwd");
-  				var condition = $HId('Un').value==""||$HId('Pwd').value==""||$HId('Un').value==null||$HId('Pwd').value==null;
-  				if(condition)
-  				{
-  								return false;
+      var condition = $HId('Un').value==""||$HId('Pwd').value==""||$HId('Un').value==null||$HId('Pwd').value==null;
+      if(condition)
+      {
+  	return false;
   							
-  				}
-  				else
+       }
+       else
   				{
   								$HShow('logS');
   								setTimeout(() => $HId('logS').style.color="#FF0000",4000);
