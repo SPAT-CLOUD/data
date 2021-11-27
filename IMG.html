@@ -86,7 +86,7 @@ showImg(<font color="pink">"19N01A0523"</font>);
   }
 function cook()
 {
-  if(!navigator.cookieEnabled)
+  if(navigator.cookieEnabled == false)
   {
     document.write(`<p style="color:red;font-weight:bold;">Error Enable cookies in your Browser</p>`);
   }
