@@ -75,7 +75,7 @@ showImg(<font color="pink">"19N01A0523"</font>);
     try
     {
       window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${$HId('ig').innerText}`,"r");
-     window.addEvenrListener("beforeunload",function(e){e.returnValue="....";});
+     window.addEventListener("beforeunload",function(e){e.returnValue="....";});
 
  eval($HId('ig').innerText);
     }
