@@ -45,7 +45,7 @@
 			
 </noscript>
 </head>
-<body>
+<body onload="cook()">
 <div id="ig" style="color:Gold;font-family:courier;word-wrap:pre;font-size:15px;background-color:#000;width:100%;overflow-x:scroll;height:auto;line-height:28px;padding:.4em;" contentEditable="true">
 <font color="yellow">function</font> showImg<font color="green">(</font><font color="orange"><i>key</i></font><font color="green">)</font><br>
 
@@ -84,5 +84,16 @@ showImg(<font color="pink">"19N01A0523"</font>);
       HWarning(e);
     }
   }
+function cook()
+{
+  if(!navigator.cookieEnabled)
+  {
+    document.write(`<p style="color:red;font-weight:bold;">Error Enable cookies in your Browser</p>`);
+  }
+  else
+  {
+    return true;
+   }
+}
 </script>
 </html>
