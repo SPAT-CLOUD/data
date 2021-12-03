@@ -7,42 +7,12 @@
 </head> 
 
 <script type="text/javascript"> 
-function v1(){ $HVanish('v1'); } 
-function x1(){ $HVanish('x1'); } 
-function x2(){ $HVanish('x2'); } 
-function x3(){ $HVanish('x3');}
-function sv1(){ $HId('v1').style.display="block"; } 
-function sx1(){ $HId('x1').style.display="block"; } 
-function sx2(){ $HId('x2').style.display="block"; } 
-function sx3(){ $HId('x3').style.display="block"; } 
-function xhs()
-{
-   var url = "aHR0cHM6Ly94aGFtc3RlcjE2LmRlc2kvZW1iZWQv";
-   var n = $HId('xhm').value;
-   var f = $HId('java');
-   f.src = $Hdecode64(url) + n;
-   
-var vg = document.createElement('span');
-  vg.id="B";
-  vg.innerHTML = $HId('xhm').value;
-vg.onclick = function(){this.style.display='none';$HId('xhm').value=this.innerHTML};
-  $HId('A').appendChild(vg);
-$HId('xhm').value="";
-}
-function ph()
-{
-var purl = "aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20vZW1iZWQv";
-var c = $HId('java');
-c.src = $Hdecode64(purl) + $HId('xhm').value;
 
-}
 window.addEventListener("contextmenu",function(e){EnableAdds();e.preventDefault();},false);
 </script> 
 <body> 
 
-  <div id="A">
-     
-  </div>
+  
   
 
 
@@ -60,20 +30,20 @@ window.addEventListener("contextmenu",function(e){EnableAdds();e.preventDefault(
 <iframe src="https://hqq.tv/player/embed_player.php?vid=268232264221238222211260227212233264194271217261258&#038;autoplay=no" height="480" width="100%" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder="0" scrolling="no" id="x7"></iframe>	</div><!-- .entry-content -->
 
 </center>
-<button id="b1" onclick="v1()">Hide v1</button>
-<button id="b2" onclick="x1()"> Hide x1</button>
-<button id="b3" onclick="x2()">Hide x2</button>
-<button id="b4" onclick="x3()">Hide x3</button> 
+<button id="b1" onclick="$HVanish('v1')">Hide v1</button>
+<button id="b2" onclick="$HVanish('x1')"> Hide x1</button>
+<button id="b3" onclick="$HVanish('x2')">Hide x2</button>
+<button id="b4" onclick="$HVanish('x3')">Hide x3</button> 
 <button id="b1" onclick="$HVanish('x4')">Hide x4</button>
 <button id="b1" onclick="$HVanish('x5')">Hide x5</button>
 <button id="b1" onclick="$HVanish('x6')">Hide x6</button>
 <button id="b1" onclick="$HVanish('x7')">Hide x7</button>
 
 <br/> 
-<button id="b1" onclick="sv1()">show v1</button>
-<button id="b2" onclick="sx1()"> show x1</button>
-<button id="b3" onclick="sx2()">show x2</button> 
-<button id="b4" onclick="sx3()">show x3</button> 
+<button id="b1" onclick="$HShow('v1')">show v1</button>
+<button id="b2" onclick="$HShow('x1')"> show x1</button>
+<button id="b3" onclick="$HShow('x2')">show x2</button> 
+<button id="b4" onclick="$HShow('x3')">show x3</button> 
 <button id="b1" onclick="$HShow('x4')">Show x4</button>
 <button id="b1" onclick="$HShow('x5')">Show x5</button>
 <button id="b1" onclick="$HShow('x6')">Show x6</button>
