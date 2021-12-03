@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="theme-color" content="#4DCDAF">
+				<meta name="viewport" content="width=device-width">
+				<meta name="description" content="HarScript Basic Tutorial For Modal Alert Boxes And minimized DOM without jQuery">
+				<title>HarScript Tutorial</title>
+				<script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"></script>
+</head>
+<style>
+				body{
+								background-color:#CCCCCC;
+				}
+						@keyframes g
+				{
+								from{top:-789px}
+								to{top:200px;}
+				}
+				#Desc-box
+				{
+								color:#000000;
+								opacity:0.8;
+								background-color:#AAAAAA;
+								font-size:16px;
+								border-radius:2px;
+								word-wrap:no-break;
+								overflow-y:scroll;
+								line-Height:24px;
+								border:2px solid #DDD;
+								font-family:monospace;
+								padding:.4em .2em;
+								width:280px;
+								height:20px;
+								box-shadow:2px 6px 6px #000;
+							animation:g 4s 1;
+				}
+				#title
+				{
+								color:#DDD;
+								background-image:linear-gradient(to bottom , blue,lightblue);
+								font-size:14px;
+								font-weight:640;
+								Border-radius:2px;
+								border:2px solid #000;
+								overflow-x:scroll;
+								padding:.2em;
+					width:120px;
+					opacity:8;
+								
+				}
+		
+				@keyframes e
+				{
+								from{height:0px;}
+								to{height:340px;opacity:8;}
+								
+				}
+				@keyframes c 
+				{
+								from{height:340px;}
+								to{height:0px;}
+				}
+			 #Desc-box:hover
+				{
+								animation:e 2s 1;
+								width:360px;
+								height:340px;
+								opacity:8;
+				}
+				#title:hover #Desc-box
+				{
+								animation:c 2s 1;
+								height:0px;
+				}
+				ol{
+								border:2px solid #FFF;
+							
+				}
+				li{
+								background-color:#000;
+								color:#4FF;
+								overflow-x:scroll;
+								padding:.4em;
+				}
+</style>
+<body>
+				<h1>HarScript Tutorial</h1>
+			<div id="Desc-box"><span id="title">HarScript History</span>
+							<ol type="1">
+		<li>	HarScript is Developed  at <i><b>"A-17 Quarters,vital nagar,Godhavarikhani".</b></i>
+			</li><br/>
+			<li>Main purpose of this is to Genrate A Modal Alerts By Single function call.</li><br/>
+			<li>And this reduces some code by linking it's library.</li><br/>
+			<li>
+							for example , DOM Based such as document.getElementById,document.getElementsByTagName Can be reduced without jQuery.
+			</li><br/>
+			</ol></div>	<br/>
+			<div id="Desc-box">
+							<span id="title">
+											Modal Alert Functions
+							</span>
+							<ol type="1">
+											<li>There are mainly four Modal Alert functions</li><br/>
+											<li>HAlertBox(),HWarning(),HAlert(),HWindow()</li><br/>
+											<li><b>HAlertBox</b> Has disadvantage Cant Show big message in it's innerBox.</li><br/>
+											<li><b>HWarning</b> onloads it will vibrate for 2 seconds it Also Cant show big message.</li><br/>
+											<li><b>HAlert</b> is iframe based Alert box it shows big message but you need to scroll.</li><br/>
+											<li>
+															<b>HWindow</b> it can show big message but problem with it is it cant show large message and also close button width depends upon style of your site.
+											</li><br/>
+											<li><b>NOTE:</b><i>These Functions Are asynchronus functions (not immediate action)</i></li><br/>
+			<li><b>For outputs visit here:</b><a href="https://spat-cloud.github.io/data/HarScript/Demo">Output for Modal Functions</a></li>								
+							</ol>
+			</div><br/>
+			<div id="Desc-box">
+							<span id="title">Instructions before you learn HarScript</span>
+							<ol type="1">
+											<li>When You are dealing with <b>Modal Alert Functions</b> You need compulsory two Tags <b>&lt;body&gt;,&lt;head&gt;</b>.</li><br/>
+											<li>The External JavaScript File must be linked And set In Head Section As Mentioned in instruction <b>3</b> Shows How to Link.</li><br/>
+											<li><b>Example Structure:</b><br/>&lt;!DOCTYPE html&gt;<br/>&lt;html&gt;<br/>&lt;head&gt;<br/>&lt!--copy below script tag to run in your website--&gt;<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;<br/></li>
+							</ol>
+			</div><br/>
+			<div id="Desc-box">
+							<span id="title">
+											HAlertBox Function tutorial
+							</span>
+							<ol type="1">
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code:</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+													<font color="yellow">function</font> Ha<font color="red">()</font><br/>
+													{<br/>
+													  HAlertBox("test");<br/>
+													 }setTimeout(Ha,1200);<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>
+							</ol>
+			</div><br/>
+					<div id="Desc-box">
+							<span id="title">
+											HWarning Function tutorial
+							</span>
+							<ol type="1">
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code:</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+													<font color="yellow">function</font> Ha<font color="red">()</font><br/>
+													{<br/>
+													  HWarning("test");<br/>
+													 }setTimeout(Ha,1200);<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>
+							</ol>
+			</div><br/>
+				<div id="Desc-box">
+							<span id="title">
+											HAlert Function tutorial
+							</span>
+							<ol type="1">
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code:</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+													<font color="yellow">function</font> Ha<font color="red">()</font><br/>
+													{<br/>
+													  HAlert("test");<br/>
+													 }setTimeout(Ha,1200);<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>
+							</ol>
+			</div><br/>
+				<div id="Desc-box">
+							<span id="title">
+											HWindow Function tutorial
+							</span>
+							<ol type="1">
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code:</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+													<font color="yellow">function</font> Ha<font color="red">()</font><br/>
+													{<br/>
+													  HWindow("test");<br/>
+													 }setTimeout(Ha,1200);<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>
+							</ol>
+			</div><br/>
+		<div id="Desc-box">
+							<span id="title">
+											HAlert Function tutorial
+							</span>
+							<ol type="1">
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code:</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+													<font color="yellow">function</font> Ha<font color="red">()</font><br/>
+													{<br/>
+													  HAlert("test");<br/>
+													 }setTimeout(Ha,1200);<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>
+							</ol>
+			</div><br/>
+				<div id="Desc-box">
+							<span id="title">
+											DOM Functions tutorial
+							</span>
+							<ol type="1">
+											<li>This Consists of basically 2 functions $HId() , $HTag()</li><br>
+											<li>$HId() takes id of Element As Argument</li><br>
+											<li>$HTag() takes Argument As TagName of element <b>Ex:</b>&lt;p&gt; TagName is Accessed as $HTag('p')</li><br>
+											
+											<li>First create A your_file_name.html file</li><br/>
+											<li>
+															Now save this below code in your your_file_name.html file.
+											</li><br/>
+											<li>
+															<b>Code for $HId():</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;p&nbsp;id='o'&gt;Test&lt;/p&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+												$HId('o').innerHTML = "anything";<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li><br/>
+									<li>
+															<b>Code for $HTag():</b><br/>
+															&lt;!DOCTYPE html&gt;<br/>
+															&lt;html&gt;<br/>
+															&lt;head&gt;<br/>
+															<pre>&lt;script async src="https://cdn.jsdelivr.net/gh/SPAT-CLOUD/data@main/HarScript/HarScript.v3.0.Latest.min.js"&gt;&lt;/script&gt;</pre><br/>
+													&lt;/head&gt;<br/>
+													&lt;body&gt;<br/>
+													&lt;p&gt;Test&lt;/p&gt;<br/>
+													&lt;/body&gt;<br/>
+													&lt;script&gt;<br/>
+												$HTag('p')[0].innerHTML = "anything";<br/>
+													&lt;/script&gt;<br/>
+													&lt;/html&gt;<br/></p>
+											</li>		
+							</ol>
+			</div><br/>
+					
+</body>
+<script>
+				
+</script>
+</html>
