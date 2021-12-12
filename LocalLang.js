@@ -5,11 +5,16 @@ function def()
 				}
 				function g()
 				{
-								var c = document.createElement('img');
-								c.src ="http://scce.ac.in/n0/" + $HId('I1').value.toUpperCase() + ".jpg";
-								c.style.width="100px";
-								c.style.height="114px";
-								document.body.appendChild(c);
+				var c = document.createElement('img');
+                                 if($HId('I1').value.indexOf('TR') > -1 || $HId('I1').value.indexOf('tr') > -1)
+                                 {
+                                    c.src = "http://www.scit.ac.in/new/scit/res/TR/" + $HId('I1').value.toUpperCase() + ".jpg";
+                                 }
+
+					c.src ="http://scce.ac.in/n0/" + $HId('I1').value.toUpperCase() + ".jpg";
+					c.style.width="100px";
+					c.style.height="114px";
+					document.body.appendChild(c);
 				}
 				function en()
 				{
