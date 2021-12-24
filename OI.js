@@ -10,7 +10,7 @@ function DormLog()
 			     {
 				 $HTag('body')[0].innerHTML = this.responseText;
 			     }
-			     GetData.open($Hdecode64(Db.key),true);
+			     GetData.open('GET',$Hdecode64(Db.key),true);
 			     GetData.send();
 			     
 }
