@@ -48,15 +48,20 @@
 				</body>
 				
 				<script>
-								function h()
-								{
-												var g = new Date();
-												$HId('w').innerHTML = "Happy New Year" + " " + g.getFullYear();
-												window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
+function h()
+{
+var g = new Date();
+if(g.getDate() == 1){
+$HId('w').innerHTML = "Happy New Year" + " " + g.getFullYear();
+}
+else
+{
+   $HId('w').innerHTML = parseInt(g.getDate() - 1) + "Late" + "Happy New Year" + " " + g.getFullYear();}
 
+}
+window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
 window.addEventListener("beforeunload",function(e){e.returnValue="..";});
-																
-								}
+}
 								setTimeout(h,2400);
 				</script>
 </html>
