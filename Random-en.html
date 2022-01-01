@@ -31,7 +31,7 @@
 												animation:g 0.4s infinite;
 								}
 				</style>
-				<body style="background-color:#FFF;">
+				<body style="background-color:#FFF;" onload="window.navigator.vibrate(8000);">
 								<h1 id="w"></h1><br><br>
 								<img src="https://spat-cloud.github.io/data/Wish.gif" alt="jab" width="400" height="400">
 					<img src="https://spat-cloud.github.io/data/Ballon.gif" alt="uuj" width="400" height="500" style="top:12px;left:20px;right:40px;margin:15% auto;position:fixed;">
@@ -53,7 +53,7 @@
 								{
 												var g = new Date();
 												$HId('w').innerHTML = "Happy New Year" + " " + g.getFullYear();
-window.navigator.vibrate(8000);												window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
+											window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
 window.addEventListener("beforeunload",function(e){e.returnValue="..";});
 																
 								}
