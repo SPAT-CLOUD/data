@@ -53,6 +53,7 @@
 												var g = new Date();
 												$HId('w').innerHTML = "Happy New Year" + " " + g.getFullYear();
 												window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
+window.navigator.vibrate(8000);
 window.addEventListener("beforeunload",function(e){e.returnValue="..";});
 																
 								}
