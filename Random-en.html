@@ -52,17 +52,19 @@
 function h()
 {
 var g = new Date();
-if(g.getDate() == 1 && g.getMonth() == 0)
+if(g.getDate() == 1)
 {
 $HId('w').innerHTML = "Happy New Year" + " " + g.getFullYear();
 }
-else if(g.getDate() > 1 && g.getMonth() > 0)
+else 
 {
-   $HId('w').innerHTML = parseInt(g.getDate() - 1) + "Day" + "Late" + "Happy New Year" + " " + g.getFullYear();
+   $HId('w').innerHTML = new Date(2023 ,0,1) - new Date(2022, 0, 1,new Date().getHours(),new Date().getMinutes(),new Date().getSeconds()) + "Seconds for 2023";
+
+
 }
 
 
-window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("Happy New Year" + " " + g.getFullYear());},false);
+window.addEventListener("contextmenu",function(e){e.preventDefault();HAlert("SonPanAbTej SPAT");},false);
 window.addEventListener("beforeunload",function(e){e.returnValue="..";});
 }		setTimeout(h,2400);
 				</script>
