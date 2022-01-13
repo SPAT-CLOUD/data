@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SREE CHAITANYA COLLEGE OF ENGINEERING COMPUTER SCIENCE ENGINEERING 19 AND 20 BATCH PROFILES</title>
+  <script async src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.9.Latest.min.js"></script>
+<script src="https://spat-cloud.github.io/data/SCCE.CSE-19.db.js"></script>
+  <meta name="description" content="All 19 and 20 Batch profile">
+</head>
+<body>
+</body>
+<script>
+      function j()
+      {
+         var dir = ["up","down","left","right"];  
+          var b = document.createElement('marquee');  
+          b.direction=dir[Math.floor(Math.random() * dir.length)]; 
+          b.scrollAmount= Math.floor(Math.random() * 40);  
+          b.style.width = "120px"; 
+          b.style.height="140px"; 
+          document.body.appendChild(b); 
+          var d = document.createElement('img');
+          d.src=SCCE.LINK + SCCE.CSEAB[Math.floor(Math.random() * SCCE.CSEAB.length)] + ".jpg";
+d.style.width="120px";
+d.style.height="140px";
+b.appendChild(d);
+}
+setInterval(j,1000);
+</script>
+</html>
+
