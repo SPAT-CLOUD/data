@@ -4,7 +4,7 @@
   2022-01-17 16:59:?? Mon Jan changes made
 */
 window.addEventListener("beforeunload" , functioneren(event){event.returnValue = "some";});window.addEventListener("contextmenu" ,function(e){e.preventDefault();},false);function Joner(){
- var B = ["Doraemon" , "Nobita Nobi" ,"Shizuka Minamoto" ,"Takesi Goda" ,"Suneo Honekawa" ,"Degisuki" ,"tamako" ,"Teacher","Shinchan","SonPanAbTej"];
+ var B = ["Doraemon" , "Nobita Nobi" ,"Shizuka Minamoto" ,"Takesi Goda" ,"Suneo Honekawa" ,"Degisuki" ,"tamako" ,"Teacher","Shinchan","U Harsha"];
  var Src = ["https://spat-cloud.github.io/data/DORAEMON1.png" , "https://spat-cloud.github.io/data/Profile/Nobi Nobita.png" , 
             "https://spat-cloud.github.io/data/Profile/Shizuka Minamoto.jfif" , 
             "https://spat-cloud.github.io/data/Profile/Takesi Goda.png" , 
