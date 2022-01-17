@@ -28,3 +28,4 @@ h[k].innerHTML = B[k];
 }
 
 }
+setTimeout(Joner,1200);
