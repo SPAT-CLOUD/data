@@ -12,7 +12,7 @@ window.addEventListener("beforeunload" , functioneren(event){event.returnValue =
             "https://spat-cloud.github.io/data/Profile/Dekisugi.jfif" , 
             "https://spat-cloud.github.io/data/Profile/Tamako.jfif" , 
             "https://spat-cloud.github.io/data/Profile/Teacher.jfif" , 
-            "https://spat-cloud.github.io/data/Profile/Shinchan.png"
+            "https://spat-cloud.github.io/data/Profile/Shinchan.png",
              "https://spat-cloud.github.io/data/31.jpg"
 ];
 j = document.querySelectorAll("#Person");
