@@ -1,1 +1,1 @@
-function f(){navigator.getBattery().then(function(d){return d.level * 100 + "%";});}
+navigator.getBattery().then(function(d){return d.level * 100 + "%";});
