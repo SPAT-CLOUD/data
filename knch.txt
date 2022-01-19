@@ -1,49 +1,137 @@
-Female & Chorus : Kodiyavanin kadhaiyai mudikka Koravalaiya thedi kadikka Naaru naaraa odamba kizhikka Nadutheruvil sedhara adikka Puzhuvapoala nasukki eriya Puzhicha raththam thelichi nadakka Thundu thundaa narukki edukka Thulla vechu usura edukka Sandhikkae adhirchi kodukka Sagala vidha vadhaigal puriyavae…… 
+<b>Female & Chorus : </b>&nbsp;
+ <ol type="1">
+      <li>Kodiyavanin kadhaiyai mudikka Koravalaiya thedi kadikka </li>
+      <li>Naaru naaraa odamba kizhikka Nadutheruvil sedhara adikka </li>
+      <li>Puzhuvapoala nasukki eriya Puzhicha raththam thelichi nadakka </li>
+      <li>Thundu thundaa narukki edukka </li>
+      <li>Thulla vechu usura edukka</li>
+      <li>Sandhikkae adhirchi kodukka </li>
+      <li>Sagala vidha vadhaigal puriyavae……</li> 
+</ol>
+<b>Female : </b>&nbsp;<br>
+<ol type="1">
+<li>Vanjinam vanjinam ponga </li>
+<li>Vilaiyaada varaa kanchana </li>
+</ol>
+<b>Chorus : </b>&nbsp;<br>
+<ol type="1">
+Kova pazhaththa pola kannu 
+Kovaththula sevakkum sevakkum <br>
+</ol>
 
-Female : Vanjinam vanjinam ponga Vilaiyaada varaa kanchana Chorus : Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum 
-
-
-Female : Hey vettiya maram pola Unna saaikkavarraa
-
- kanchana Chorus : Othadu thudikkum Odambu thudikkum Kedachcha nodiyil Sambhavam nadakkum 
+<b>Female : </b>&nbsp;<br>
+<ol type="1">
+Hey vettiya maram pola
+ Unna saaikkavarraa kanchana <br>
+</ol>
+<b>Chorus : </b>&nbsp;<br>
+<ol type="1">
+Othadu thudikkum
+ Odambu thudikkum 
+Kedachcha nodiyil 
+Sambhavam nadakkum </li>
+ </ol>
+ 
+<b>Female : </b>&nbsp;<br>
+<ol type="1">
+Kenjida kenjida kenjida 
+Unna kizhichcheriya poraa <br>
+Kadhara kadhara kadhara 
+Undhan kadha mudikka poraa <br>
+Hey vandhuttaa vandhuttaa Vandhuttaa vandhuttaa Vandhuttaa vandhuttaadaa<br>
+</ol>
+ <b>Female & Male :</b>&nbsp; <br>
+<ol type="1">
+Soorakkaaththa pola varaadaa<br> 
+Hey sodukku pottu azhikka varaadaa<br> 
+Aanum pennum kalandhu varaadaa<br> 
+Onna pirichchi meya ezhundhu Varaadaa 
+dei dei dei <br>
+ </ol>
+ 
+<b>Female :</b>&nbsp;<br>
+<ol type="1">
+ Vanjinam vanjinam ponga
+ Vilaiyaada varaa kanchana <br></ol>
+<b>Chorus :</b>&nbsp;<br><ol type="1">
+ Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum<br>
+ </ol>
+ 
+ <b>Female :</b>&nbsp;<br><ol type="1">
+ Hey vettiya maram pola 
+Unna saaikkavarraa kanchana <br></ol>
+<b>Chorus :</b>&nbsp; <br><ol type="1">
+Othadu thudikkum 
+Odambu thudikkum 
+Kedachcha nodiyil Sambhavam nadakkum<br></ol>
  
  
-Female : Kenjida kenjida kenjida Unna kizhichcheriya poraa Kadhara kadhara kadhara Undhan kadha mudikka poraa Hey vandhuttaa vandhuttaa Vandhuttaa vandhuttaa Vandhuttaa vandhuttaadaa
-
- Female & Male : Soorakkaaththa pola varaadaa Hey sodukku pottu azhikka varaadaa Aanum pennum kalandhu varaadaa Onna pirichchi meya ezhundhu Varaadaa dei dei dei 
- 
- 
-Female : Vanjinam vanjinam ponga Vilaiyaada varaa
-
-
- kanchana Chorus : Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum
- 
- 
- Female : Hey vettiya maram pola Unna saaikkavarraa kanchana Chorus : Othadu thudikkum Odambu thudikkum Kedachcha nodiyil Sambhavam nadakkum
- 
- 
-  Female & Male : Kabaala maalaigal Kazhuththil urula Kangalai paarththaalae Evanum merala Agaala velaiyil vettaikku varaalae Adhiri pudhiri aachchi
-  
-   Female & Male : Appalam polavae Edhiri norunga Angavum ingavum Udalgal sidhara Eppavum engavum Kaanaadha raatchchasi Edhirinil vandhaachchae
-   
-    Female & Male : Kombaeri mookkanum Kodhuma naaganum Kannaadi viriya puttiyum Saarappaambum suruttappaambum Vellikkol varaiyanaaganum Pavala paambum mannuli paambum Pasum saambhal thanni paambum Kudi viriyanum kattu viriyanum Koodi seeravae 
+  <b>Female & Male :</b>&nbsp;<br><ol type="1">
+ Kabaala maalaigal Kazhuththil urula<br> 
+Kangalai paarththaalae Evanum merala<br>
+ Agaala velaiyil vettaikku varaalae <br>
+Adhiri pudhiri aachchi<br>
+  </ol>
+   <b>Female & Male :</b>&nbsp;<br>
+<ol type="1">
+<li> Appalam polavae Edhiri norunga</li>
+<li> Angavum ingavum Udalgal sidhara Eppavum engavum Kaanaadha raatchchasi Edhirinil vandhaachchae</li>
+  </ol> 
+    <b>Female & Male :</b>&nbsp;<br>
+<ol type="1">
+ <li>Kombaeri mookkanum </li>
+<li>Kodhuma naaganum </li>
+</li>Kannaadi viriya puttiyum</li>
+ <li>Saarappaambum suruttappaambum</li>
+ <li>Vellikkol varaiyanaaganum </li>
+<li>Pavala paambum </li>
+<li>mannuli paambum </li>
+<li>Pasum saambhal thanni paambum </li>
+<li>Kudi viriyanum kattu viriyanum Koodi seeravae </li>
+  </ol>  
     
-    
-  Female & Male : Soorakkaaththa pola varaadaa Hey sodukku pottu azhikka varaadaa Aanum pennum kalandhu varaadaa Onna pirichchi meya ezhundhu Varaadaa dei dei dei 
+  <b>Female & Male :</b><br>
+<ol type="1">
+ <li>Soorakkaaththa pola varaadaa </li>
+<li>Hey sodukku pottu azhikka varaadaa</li>
+ <li>Aanum pennum kalandhu varaadaa</li>
+ <li>Onna pirichchi meya ezhundhu Varaadaa dei dei dei </li>
+  </ol>
   
-  
-  Female & Male : Uyir eduppen Kadha mudippen Uyir eduppen kadha mudippen Karuvaruppen naan 
-  
-  Chorus : Ho ho ho ho ho ho Umbalaa umbalaa hey Ho ho ho ho ho ho Umbalaa umbalaa hey 
-  
-  Female & Male : Kannula neruppu Pori parakkudhu Kaigalum kaalgalum Thudi thudikkudhu Parkkalum pasiyil Nara narangudhu Kollura neram vandhaachchae 
+  <b>Female & Male :</b>&nbsp;<br>
+<ol type="1">
+ <li>Uyir eduppen</li>
+ <li>Kadha mudippen</li>
+ <li>Uyir eduppen kadha mudippen</li>
+ <li>Karuvaruppen naan </li>
+  </ol>
+ <b> Chorus :</b><br>
+<ol type="1">
+ <li>Ho ho ho ho ho ho Umbalaa umbalaa hey</li>
+ <li>Ho ho ho ho ho ho Umbalaa umbalaa hey </li>
+  </ol>
+ <b> Female & Male :</b><br>
+<ol type="1">
+ <li>Kannula neruppu Pori parakkudhu </li>
+<li>Kaigalum kaalgalum Thudi thudikkudhu</li>
+ <li>Parkkalum pasiyil Nara narangudhu</li>
+ <li>Kollura neram vandhaachchae </li>
+ </ol>
  
- 
-  Female & Male : Vaanamum bhoomiyum Nadu nadungudhu Vangakkadal pola Kaaththu urumudhu Singa nadaiyudan Singaari roobhaththil Sedhachchida vandhaachchae 
+  <b>Female & Male :</b>&nbsp;<br>
+<ol type="1">
+ <li>Vaanamum bhoomiyum Nadu nadungudhu </li>
+<li>Vangakkadal pola Kaaththu urumudhu </li>
+<li>Singa nadaiyudan Singaari roobhaththil </li>
+<li>Sedhachchida vandhaachchae </li>
+  </ol>
   
-  
-  Female & Male : Siththirai veiyilum Kalangi pogum Sevakkum iva kanna paarthu Aththanai dhisaiyum Adhirndhu pogum Adadaa iva vgaam paarthu Kudhirai nadungi oda oda Udalai iva kizhikkaporaa Udhava venaam Bhayangharaththa kaatta poraa
-   
+  <b>Female & Male :</b>&nbsp; <br>
+<ol type="1">
+Siththirai veiyilum Kalangi pogum 
+Sevakkum iva kanna paarthu 
+Aththanai dhisaiyum Adhirndhu pogum Adadaa iva vgaam paarthu Kudhirai nadungi oda oda Udalai iva kizhikkaporaa Udhava venaam Bhayangharaththa kaatta poraa
+   </ol>
    
    <b>Female & Male : </b>Soorakkaaththa pola varaadaa Hey sodukku pottu azhikka varaadaa Aanum pennum kalandhu varaadaa Onna pirichchi meya ezhundhu Varaadaa dei dei dei <br>
    
