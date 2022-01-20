@@ -5,8 +5,8 @@
 <style>
 li
 {
-   color:#4ACFDA;
-   font-size:14px;
+   color:#FF0000;
+   font-size:24px;
    font-weight:400;
 }
 </style>
@@ -28,62 +28,62 @@ li
 </ol>
 <b>Chorus : </b>&nbsp;<br>
 <ol type="1">
-Kova pazhaththa pola kannu 
-Kovaththula sevakkum sevakkum <br>
+<li>Kova pazhaththa pola kannu </li>
+<li>Kovaththula sevakkum sevakkum </li><br>
 </ol>
 
 <b>Female : </b>&nbsp;<br>
 <ol type="1">
-Hey vettiya maram pola
- Unna saaikkavarraa kanchana <br>
+<li>Hey vettiya maram pola</li>
+<li> Unna saaikkavarraa kanchana </li><br>
 </ol>
 <b>Chorus : </b>&nbsp;<br>
 <ol type="1">
-Othadu thudikkum
- Odambu thudikkum 
-Kedachcha nodiyil 
-Sambhavam nadakkum </li>
+<li>Othadu thudikkum</li>
+ <li>Odambu thudikkum </li>
+<li>Kedachcha nodiyil</li> 
+<li>Sambhavam nadakkum </li>
  </ol>
  
 <b>Female : </b>&nbsp;<br>
 <ol type="1">
-Kenjida kenjida kenjida 
-Unna kizhichcheriya poraa <br>
-Kadhara kadhara kadhara 
-Undhan kadha mudikka poraa <br>
-Hey vandhuttaa vandhuttaa Vandhuttaa vandhuttaa Vandhuttaa vandhuttaadaa<br>
+<li>Kenjida kenjida kenjida </li>
+<li>Unna kizhichcheriya poraa </li>
+<li>Kadhara kadhara kadhara </li>
+<li>Undhan kadha mudikka poraa </li>
+<li>Hey vandhuttaa vandhuttaa Vandhuttaa vandhuttaa Vandhuttaa vandhuttaadaa</li>
 </ol>
  <b>Female & Male :</b>&nbsp; <br>
 <ol type="1">
-Soorakkaaththa pola varaadaa<br> 
-Hey sodukku pottu azhikka varaadaa<br> 
-Aanum pennum kalandhu varaadaa<br> 
-Onna pirichchi meya ezhundhu Varaadaa 
-dei dei dei <br>
+<li>Soorakkaaththa pola varaadaa</li> 
+<li>Hey sodukku pottu azhikka varaadaa</li> 
+<li>Aanum pennum kalandhu varaadaa</li> 
+<li>Onna pirichchi meya ezhundhu Varaadaa </li>
+<li>dei dei dei </li>
  </ol>
  
 <b>Female :</b>&nbsp;<br>
 <ol type="1">
- Vanjinam vanjinam ponga
- Vilaiyaada varaa kanchana <br></ol>
+<li> Vanjinam vanjinam ponga</li>
+<li> Vilaiyaada varaa kanchana </li></ol>
 <b>Chorus :</b>&nbsp;<br><ol type="1">
- Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum<br>
+ <li>Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum</li>
  </ol>
  
  <b>Female :</b>&nbsp;<br><ol type="1">
- Hey vettiya maram pola 
-Unna saaikkavarraa kanchana <br></ol>
+ <li>Hey vettiya maram pola </li>
+<li>Unna saaikkavarraa kanchana </li></ol>
 <b>Chorus :</b>&nbsp; <br><ol type="1">
-Othadu thudikkum 
-Odambu thudikkum 
-Kedachcha nodiyil Sambhavam nadakkum<br></ol>
+<li>Othadu thudikkum </li>
+<li>Odambu thudikkum </li>
+<li>Kedachcha nodiyil Sambhavam nadakkum</li></ol>
  
  
   <b>Female & Male :</b>&nbsp;<br><ol type="1">
- Kabaala maalaigal Kazhuththil urula<br> 
-Kangalai paarththaalae Evanum merala<br>
- Agaala velaiyil vettaikku varaalae <br>
-Adhiri pudhiri aachchi<br>
+ <li>Kabaala maalaigal Kazhuththil urula</li> 
+<li>Kangalai paarththaalae Evanum merala</li>
+ <li>Agaala velaiyil vettaikku varaalae </li>
+<li> Adhiri pudhiri aachchi</li>
   </ol>
    <b>Female & Male :</b>&nbsp;<br>
 <ol type="1">
@@ -141,21 +141,40 @@ Adhiri pudhiri aachchi<br>
   
   <b>Female & Male :</b>&nbsp; <br>
 <ol type="1">
-Siththirai veiyilum Kalangi pogum 
-Sevakkum iva kanna paarthu 
-Aththanai dhisaiyum Adhirndhu pogum Adadaa iva vgaam paarthu Kudhirai nadungi oda oda Udalai iva kizhikkaporaa Udhava venaam Bhayangharaththa kaatta poraa
+<li>Siththirai veiyilum Kalangi pogum </li>
+<li>Sevakkum iva kanna paarthu </li>
+<li>Aththanai dhisaiyum Adhirndhu pogum</li>
+ <li>Adadaa iva vgaam paarthu Kudhirai nadungi oda oda Udalai iva kizhikkaporaa Udhava venaam Bhayangharaththa kaatta poraa</li>
    </ol>
    
-   <b>Female & Male : </b>Soorakkaaththa pola varaadaa Hey sodukku pottu azhikka varaadaa Aanum pennum kalandhu varaadaa Onna pirichchi meya ezhundhu Varaadaa dei dei dei <br>
+   <b>Female & Male :</b><br>
+<ol type="1">
+ <li>Soorakkaaththa pola varaadaa </li>
+<li>Hey sodukku pottu azhikka varaadaa</li>
+ <li>Aanum pennum kalandhu varaadaa</li>
+ <li>Onna pirichchi meya ezhundhu Varaadaa dei dei dei </li>
+  </ol>
    
-   
-   
-  <b> Female : </b>Vanjinam vanjinam ponga Vilaiyaada varaa <br>
-  
-  
-   kanchana Chorus : Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum 
-   <b>Female :</b> Hey vettiya maram pola Unna saaikkavarraa 
-  <b> kanchana Chorus :</b> Othadu thudikkum Odambu thudikkum Kedachcha nodiyil Sambhavam nadakkum <b>Female & Male :</b> Eduththa sabadham Mudikkum varaikkum Imaigal yedhu urakkam urakkam Adikkum adiyil malaiyum parakkum Kuridhi nadhiyil bhoomi sivakkum Aththanai elumbum norungum
-norungum Padharum oosai agilam thirumbum Modhiya kodaari munaigal odaiyum Ottiya udalgal muzhudhum sedharum Kattiya kayiru arundhu udhirum Kanavu kaanum vadhaigalil nadakkum 
+  <b>Chorus :</b>&nbsp;<br><ol type="1">
+ <li>Kova pazhaththa pola kannu Kovaththula sevakkum sevakkum</li>
+ </ol>
+ 
+ <b>Female :</b>&nbsp;<br><ol type="1">
+ <li>Hey vettiya maram pola </li>
+<li>Unna saaikkavarraa kanchana </li></ol>
+<b>Chorus :</b>&nbsp; <br><ol type="1">
+<li>Othadu thudikkum </li>
+<li>Odambu thudikkum </li>
+<li>Kedachcha nodiyil Sambhavam nadakkum</li></ol>
+ 
+
+ <b>Female & Male :</b> <ol type="1">
+<li>Eduththa sabadham Mudikkum </li>
+<li>varaikkum Imaigal yedhu urakkam urakkam </li>
+<li>Adikkum adiyil malaiyum parakkum </li>
+<li>Kuridhi nadhiyil bhoomi sivakkum </li>
+<li>Aththanai elumbum norungum</li>
+<li>norungum Padharum oosai agilam thirumbum Modhiya kodaari munaigal odaiyum Ottiya udalgal muzhudhum sedharum Kattiya kayiru arundhu udhirum Kanavu kaanum vadhaigalil nadakkum</li>
+</ol> 
 </body>
 </html>
