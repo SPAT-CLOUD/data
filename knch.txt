@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+li
+{
+   color:#4ACFDA;
+   font-size:14px;
+   font-weight:400;
+}
+</style>
+<body>
 <b>Female & Chorus : </b>&nbsp;
  <ol type="1">
       <li>Kodiyavanin kadhaiyai mudikka Koravalaiya thedi kadikka </li>
@@ -144,3 +157,5 @@ Aththanai dhisaiyum Adhirndhu pogum Adadaa iva vgaam paarthu Kudhirai nadungi od
    <b>Female :</b> Hey vettiya maram pola Unna saaikkavarraa 
   <b> kanchana Chorus :</b> Othadu thudikkum Odambu thudikkum Kedachcha nodiyil Sambhavam nadakkum <b>Female & Male :</b> Eduththa sabadham Mudikkum varaikkum Imaigal yedhu urakkam urakkam Adikkum adiyil malaiyum parakkum Kuridhi nadhiyil bhoomi sivakkum Aththanai elumbum norungum
 norungum Padharum oosai agilam thirumbum Modhiya kodaari munaigal odaiyum Ottiya udalgal muzhudhum sedharum Kattiya kayiru arundhu udhirum Kanavu kaanum vadhaigalil nadakkum 
+</body>
+</html>
