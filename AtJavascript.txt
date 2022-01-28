@@ -417,3 +417,7 @@ Browser Stack
 
 Mail = rikomiy555@cytsl.com
 Pwd = 12345678
+
+duoglingo
+
+mail = delesi8560@yks247.com
