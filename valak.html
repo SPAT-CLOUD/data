@@ -60,8 +60,22 @@ body{
 <p id="ok" style="color:#4FF; font-size:14px;font-style:italic;"></p>
 <div id="If">Sample.mhd</div><br>
 <div id="java" dir="rtl"></div><br>
-<button onclick="h()">Show</button>
+<button onclick="kl()">Show</button>
 <script>
+function kl()
+{
+var arr = {
+  'A':'%u0623%u064E%u0639%u064F%u0648%u0630%u064F',
+'B':'%u0628%u0650%u0643%u064E%u0644%u0650%u0645%u064E%u0627%u062A%u0650',
+'C':'%u0644%u0644%u0647%u0650%u20%u0627%u0644%u062A%u0651%u064E%u0627%u0645%u0651%u064E%u0629%u0650%u0645%u0650%u0646%uA0',
+'D':'%u0643%u064F%u0644%u0651%u064E%u0650',
+'E':'%u0634%u064E%u064A%u0637%u064E%u0627%u0646%u064D',
+'F':'%u0648%u064E%u0647%u064E%u0627%u20%u0645%u0651%u064E%u0629%u064D%u20%u0648%u064E%u0645%u0650%u0646%u20%u0643%u064F%u0644%u0650%u20'
+};
+var g = document.getElementById('ok');
+g.innerHTML = arr['A'].split("%u").join("&#x") + " " + arr['B'].split("%u").join("&#x") + " " + arr['C'].split("%u").join("&#x") + " " 
++  arr['D'].split("%u").join("&#x") + " " + arr['E'].split("%u").join("&#x") + " " + arr['F'].split("%u").join("&#x");
+}
 var str="%D8%A7,%D8%A6,%D8%AF,%D8%AE,%D8%B7,%D8%AC,%D8%B5,%D8%AE,%DA%AF,%D8%AC,%DA%86,%D8%AE,%D8%B7,%D8%AC,%D8%B7,%D8%AE,%D8%B7,%D8%AC,%DA%86,%DB%8C,%DA%BE\n,%D8%AE,%DA%86,%DB%81,%D8%B7,%DB%8C,%DA%86,%DB%8C,%DA%BE,%DB%8C,%DA%86,%DB%8C,%DA%BE\n,%D8%AE,%DA%86,%DB%8C,%D8%B7,%D8%A6,%DA%86,%DB%81,%D8%B7,%DB%8C,%DA%86,%DB%8C\n,%DA%BE,%DB%8C,%D9%81,%DB%8C,%DA%BE,%D8%A6,%DA%AF,%DB%81,%DA%BE,%D8%A6,%D9%81,%DB%92\n,%D8%B9,%DB%92,%D8%A7,%DB%8C,%D9%81,%DB%81,%DA%86,%D8%AC,%DA%86,%DB%8C,%DA%BE\n,%D8%AC,%D8%B5,%DB%8C,%DA%AF,%D8%A6,%D8%B5,%DB%8C,%DA%86,%D8%AC,%DA%86,%DB%81,%DA%86\n,%D8%AC,%DA%AF,%DB%81,%DA%86,%D8%AC,%DA%86,%DB%81,%DA%86,%D8%A6,%D8%B5,%D8%A6,%D9%81,%D8%AE,%D8%B5,%D8%AE,%DA%AF,%DB%8C,%D8%B5,%DB%8C,%DA%AF,%D8%A6,%D8%B2,%DB%8C\n,%DA%BE,%D8%A6,%D8%B5,%DB%8C,%DA%BE,%DA%A9,%DA%BE,%D9%BE,%D9%84,%DB%92,%D8%AF,%D8%AA,%D8%B3,%DA%AF,%D8%AF\n,%DB%8C,%DA%AF,%D8%AE,%D8%B7,%D8%AC,%DA%86,%D8%AE,%D8%A8,%D9%84,%20%D8%A6,%DA%86,%DA%A9,%DA%BE,%D8%AE,%DA%86,%DB%81,%DA%BE\n,%D8%A6,%DA%86,%DB%81,%DA%BE,%DB%8C,%DA%86,%DB%81,%DA%BE,%D8%AE,%D8%B5,%DB%92,%D8%B3,%D8%A6,%DA%86,%DA%A9,%D8%B7,%D9%BE\n,%D8%B7,%D8%AE,%DA%86,%DB%81,%DA%BE\n,%D8%AE,%DA%86,%DA%A9,%DA%BE,%D8%AE,%D8%B5,%DA%A9,%DA%BE,%D8%AE,%DA%86,%D8%A7,%DA%AF,%DA%86,%D8%B7,%D8%A8,%D8%A8,%DA%BE,%DB%81,%D8%AE,%DA%86\n,%D8%AC,%DA%86,%D8%A6,%D8%B7,%DB%92,%DA%AF,%DB%81,%DA%AF%,D8%A6,%DA%AF,%D8%A6,%D8%B1,%DB%81\n,%DA%AF%,D8%A6,%DA%AF,%D8%A6,%D8%B1,%D8%B5,%DA%A9,%DA%BE,%D8%AE,%DA%86,%D8%A7,%DA%AF,%D8%B5,%DA%A9,%DA%BE,%D8%AE,%DA%86,%D8%A7,%DA%AF,%DA%BE,%D8%A6,%D8%B5\n,%DB%8C,%DA%BE,%DA%A9,%DA%BE,%D9%BE,%D9%84,%DB%92,%D8%AF,%D8%A8,%DA%BE,%DB%81,%D8%AE,%DA%86,%D8%AA,%D8%B3,%DA%AF,%D8%AF";
 var arr=str.split(",");
 var speed=0;
@@ -80,13 +94,7 @@ setInterval(function(){
 toast.style.display="opacity:0";
 },100)
 },293)
-function h()
-{
-var arr = {'A':'%u0623%u064E%u0639%u064F%u0648%u0630%u064F','B':'%u0628%u0650%u0643%u064E%u0644%u0650%u0645%u064E%u0627%u062A%u0650','C':'%u0644%u0644%u0647%u0650%u20%u0627%u0644%u062A%u0651%u064E%u0627%u0645%u0651%u064E%u0629%u0650%u0645%u0650%u0646%uA0','D':'%u0643%u064F%u0644%u0651%u064E%u0650','E':'%u0634%u064E%u064A%u0637%u064E%u0627%u0646%u064D','F':'%u0648%u064E%u0647%u064E%u0627%u20%u0645%u0651%u064E%u0629%u064D%u20%u0648%u064E%u0645%u0650%u0646%u20%u0643%u064F%u0644%u0650%u20'};
-var g = document.getElementById('ok');
-g.innerHTML = arr['A'].split("%u").join("&#x") + " " + arr['B'].split("%u").join("&#x") + " " + arr['C'].split("%u").join("&#x") + " " 
-+  arr['D'].split("%u").join("&#x") + " " + arr['E'].split("%u").join("&#x") + " " + arr['F'].split("%u").join("&#x");
-}
+
 </script>
 
 </body>
