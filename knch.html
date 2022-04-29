@@ -286,13 +286,12 @@ var g = prompt('Password','');
 if(g == s4 + s3 + s2 + s1 + " " + s4 + s3.split('sl').join("") + "nks")
 document.getElementById(d).style.display = "block";
 else
-window.navigator.vibrate(510);
 HWarning("Wrong Password");
-document.getElementById(d).style.display = "none";
+$HVanish(d);
 }
 function Edit()
 {
-   var yb = document.getElementById('ed');
+   var yb = $HId('ed');
 if(yb.checked)
 document.body.contentEditable = "true";
 else
@@ -302,9 +301,9 @@ function dark(){
 try{
 
 var h = new Date();
-var e = document.getElementsByTagName('body');
-var j = document.getElementsByTagName('p');
-var f = document.getElementsByTagName('b');
+var e = $HTag('body');
+var j = $HTag('p');
+var f = $HTag('b');
 if(h.getHours() >= 18 && h.getMinutes() >= 40){
 e[0].style.backgroundColor = "#000";
 e[0].style.color = "#DDD";
