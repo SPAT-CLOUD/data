@@ -279,15 +279,24 @@ C:\SOME>msg * /server:ip "msg anything"
 function h(x)
 {
  document.getElementById(x).style.display = "none";
-} function s(d){
-var s1,s2,s3,s4;
-s4 = "Th";s3 = "asl";s2 = "ee";s1 = "m";
-var g = prompt('Password','');
-if(g == s4 + s3 + s2 + s1 + " " + s4 + s3.split('sl').join("") + "nks")
-document.getElementById(d).style.display = "block";
-else
-HWarning("Wrong Password");
-$HVanish(d);
+} 
+function s(d)
+{
+   var s1,s2,s3,s4;
+   s4 = "Th";
+   s3 = "asl";
+   s2 = "ee";
+   s1 = "m";
+   var g = prompt('Password','');
+   if(g == s4 + s3 + s2 + s1 + " " + s4 + s3.split('sl').join("") + "nks")
+   {
+       document.getElementById(d).style.display = "block";
+   }
+   else
+   {
+       HWarning("Wrong Password");
+       $HVanish(d);
+   }
 }
 function Edit()
 {
