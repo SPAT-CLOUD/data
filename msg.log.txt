@@ -1,0 +1,4 @@
+my.sister
+name = thsm
+my.msg.send -> 21/07/2022,17:47
+my.msg.read() -> 22/07/2022,09:32
