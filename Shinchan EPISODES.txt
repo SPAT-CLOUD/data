@@ -1,0 +1,38 @@
+/*
+SEASON 5
+Episode 1:
+https://mega.nz/file/z5EgwKYa#dqqL34c7nrmGfTP2Xcaok3icaE-Jmh5kWz_mwUYQxwQ
+Episode 2:
+https://mega.nz/#!68cwwITZ!8cqKDKpV3J3ZKEf_57PLnBF180ws0RCOLFyU5kOaNuc
+Episode 3:
+https://mega.nz/file/b8NkzKSA#_uxvNkuaYmiMKD4MLRtWbmfWUD9bdebaK2V43WyK-cE
+*/
+var Shin_Ep={
+"S1":{},"S2":{},"S3":{},"S4":{},"S5":{
+"E1":"https://mega.nz/file/z5EgwKYa#dqqL34c7nrmGfTP2Xcaok3icaE-Jmh5kWz_mwUYQxwQ",
+"E2":"https://mega.nz/#!68cwwITZ!8cqKDKpV3J3ZKEf_57PLnBF180ws0RCOLFyU5kOaNuc",
+"E3":"https://mega.nz/file/b8NkzKSA#_uxvNkuaYmiMKD4MLRtWbmfWUD9bdebaK2V43WyK-cE",
+"E4":"https://mega.nz/file/ypFAWQ7S#_6XbWXr-1tsSCPyqh3X8ucxqtklVUsTb9lbUV2Qvki4",
+"E5":"https://mega.nz/file/ywcAXQoK#wI5dvE48bc9PjuGShE6wAEEDAmXZAG0Kg5VOfW1Q45A",
+"E6":"https://mega.nz/file/C5EwGAQR#2IKAw67HmO2ShwUi1UrwVzniC9CTFlzkpfyShNcuZXE",
+"E7":"https://mega.nz/file/q1MWUYiS#pKJAm74tEV3t3UOwjPt47WqD8RPJu6iNN3mx6u-EDcM",
+"E8":"https://mega.nz/file/b4c0hSJI#Jvq2bo4Tpyr6P6OsRKXZ-6laBDyqTABUrB1aeoWbFkc",
+"E9":"https://mega.nz/file/KtUyHQCI#NUx5Nn8LIs5jJ2ZfAcZi6iHzS8Ul-Kq5GMFwQEC6LyI",
+"E10":"https://mega.nz/file/3tEGAYJJ#cwMqr88yisZu4qU4Xjg9k7tOA0z7C3pscWocf6Y21Ko",
+"E11":"https://mega.nz/file/ClUykYQB#l3JXs1649iwPu2DJWXGfVEY80Y6FEUzII1DwLYdyDbQ",
+"E12":"",
+"E13":"",
+"E14":"",
+"E15":"",
+"E16":"",
+"E17":"",
+"E18":"",
+"E19":"",
+"E20":"",
+"E21":"",
+"E22":"",
+"E23":"","E24":"","E25":"","E26":"","E27":"","E28":"","E29":"","E30":"",
+"E31":"","E32":"","E33":"","E34":"","E35":"","E36":"","E37":"","E38":"",
+"E39":"","E40":"","E41":"","E42":"","E43":"","E44":"","E45":"","E46":"",
+"E47":"","E48":"","E49":"","E50":"","E51":"","E52":""},
+};
