@@ -13,6 +13,7 @@
     <img src="./data/DORAEMON1.png" width="200" height="250" style="border:2px solid #DDD;" onerror="this.style.backgroundColor='#FF0000';" id="MLI">
   </body>
   <script>
+    window.addEventListener("contextmenu",function(e){e.preventDefault();window.navigator.vibrate(200);},true);
     function ce(g){
       if(g.indexOf('=')!=-1)
       {
