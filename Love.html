@@ -7,14 +7,32 @@
       
   </head>
   <body>
-  <button onclick="ML()">Take To My 💕</button>
+    <input type="password" id="p1">
+    <button onlclick="">SHOW ImgS🔑</button>
+    <br>
+    <img src="./data/DORAEMON1.png" width="200" height="250" style="border:2px solid #DDD;" onerror="this.style.backgroundColor='#FF0000';" id="MLI">
   </body>
   <script>
-    function ML()
+    function ce(g){
+      if(g.indexOf('=')!=-1)
+      {
+       return g.split('=').join('');
+      }
+      else{
+        return g;
+      }
+    }
+    function pwd()
+    {
+      var h=$HId('p1').value;
+      var e = $Hencode64(h);
+      $HId('MLI').src=ce(e) + '.jpg';
+    }
+  /*function ML()
       {
         var lc = "aHR0cHM6Ly9pbi5saW5rZWRpbi5jb20vaW4vdGhhc2xlZW0tbWQtNDMyMjk1Mjcw";
         setTimeout(()=>location.href=$Hdecode64(lc),1250);
-      }
+      }*/
   </script>
     
 </html>
