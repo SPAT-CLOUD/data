@@ -425,3 +425,6 @@ mail = delesi8560@yks247.com
 drivehq
 yofivod690@1uscare.com
 'SonPanAbTejSPAT'.match(/SPAT/ig).del('SonPanAbTej').Add('@3512')
+--> '+' T 
+--> NOP '@' 
+--> MyLove.BDay
