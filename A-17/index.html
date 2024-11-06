@@ -44,10 +44,15 @@ t.style.height="140px";
 document.body.appendChild(t);
 //document.body.appendChild(c);
 }
+   function sl(x){
+      x.src=x.getAttribute('data-src');
+   }
 Array.from(s).forEach(CImg);
-window.onscroll=function(){
-   Array.from(am).forEach(ix=>ix.src=ix.getAttribute('data-src'));
-};
+//   window.addEventListener
+
+   Array.from(am).forEach(ix=>{
+      ix.onscroll=function(){sl(this);
+                            }});
 </script>
 
 </html>
