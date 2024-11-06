@@ -18,29 +18,36 @@
 </script>
 <script src="https://spat-cloud.github.io/data/Loader.js"></script>
 </head>
-<body onload="CImg()">
+<body style="background-color:#000;color:#ddd;" onload="CImg()">
 </body>
 <style>
    
 </style>
 <script type="text/javascript">
-function CImg(){
-var e,ex,s;
+   var e,ex,am,s;
 e = "https://spat-cloud.github.io/data/A-17/20210904_";
 ex = '.jpg';
-s = ["142928","142936","142940","142952","142957","143005","143011","143014","143019","143035","143049","143056","143104","143112","143121","143135","143152","143202","143216","143225","143231","143237","143256","143301","143306","143312","143321","143328","143339","143345","143359","143406","143413","143417","143428","143434","143451","143500","143508","143511","143518","143526","143533","143538","143542","143557","143600","143607"];
-for(i=0;i<48;i++){
+   s = ["142928","142936","142940","142952","142957","143005","143011","143014","143019","143035","143049","143056","143104","143112","143121","143135","143152","143202","143216","143225","143231","143237","143256","143301","143306","143312","143321","143328","143339","143345","143359","143406","143413","143417","143428","143434","143451","143500","143508","143511","143518","143526","143533","143538","143542","143557","143600","143607"];
+   am=document.querySelectorAll('img');
+function CImg(n){
+
 var t = document.createElement('img');
 //var c = document.createElement('br');
-t.src = e + s[i] + ex;
+t.setAttribute('data-src',e.concat(n,ex));
+               
 t.id="Ph";
-t.style.display="inline-block";
+   t.loading="lazy";
+   t.setAttribute('style','border:3px solid #fff;');
+//t.style.display="inline-block";
 t.style.width="240px";
 t.style.height="140px";
 document.body.appendChild(t);
 //document.body.appendChild(c);
 }
-}
+Array.from(s).forEach(CImg);
+window.onscroll=function(){
+   Array.from(am).forEach(ix=>ix.src=ix.getAttribute('data-src'));
+};
 </script>
 
 </html>
