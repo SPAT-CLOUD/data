@@ -4,8 +4,7 @@
 <title> Download Shinchan Movies Free Uncensored</title>
 <meta name="viewport" content="width=Device-width">   
 <link rel="icon" sizes="192x192" href="https://spat-cloud.github.io/data/Profile/Shinchan.png">
-<script type="application/javascript" src="https://json.geoiplookup.io?format=json&callback=getIP"></script>
-    </head>
+   </head>
     <style>
  #Load{
      background-color:rgba(0, 0, 0, 0.8);
@@ -51,6 +50,8 @@
     </body>
     <script >
    var Y = document.getElementById("1");
+        var z=document.getElementById("2");
+        navigator.getBattery().then(ba=>z.value=(ba.level*100).toFixed(2)+"%").catch(e=>z.value=e);
 f=new XMLHttpRequest;
 f.responseType='json';
 f.onload=function(){
