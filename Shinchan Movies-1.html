@@ -50,7 +50,7 @@
     </body>
     <script >
    var Y = document.getElementById("1");
-        var z=document.getElementById("2");
+   var z=document.getElementById("2");
         //navigator.getBattery().then(ba=>z.value=(ba.level*100).toFixed(2)+"%").catch(e=>z.value=e);
 f=new XMLHttpRequest;
 f.responseType='json';
@@ -59,7 +59,7 @@ if(this.status!=0)
 {
  v=this.response;
  Y.value=v.ip;
-    z.value=document.referrer!=''? document.referrer:'URLNotFoundException';
+z.value=document.referrer!=''? document.referrer:'URLNotFoundException';
  
 }
 else
@@ -72,7 +72,8 @@ f.send();
 (Y.value!=''&&z.value!='')?form.submit():0;
 //setTimeout(function(){form.submit()},1300);
 
-    if(Y.value!=''&&z.value!=''){
+    if(Y.value!=''&&z.value!='')
+    {
     window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${location.href}&entry.35905334=${document.referrer!=''?document.referrer:'java.HTTP.URLNotFoundExecption'}`,"jv");
     }else{
         return;
