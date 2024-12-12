@@ -5,6 +5,20 @@ function ahs(selff){
   var fe;
   fe=document.createElement('iframe');
   fe.src=selff;
-  document.head.appendChild(fe);
+  fe.style.display="none";
+  document.body.appendChild(fe);
 }
+function HSDK(){
+ scrp=document.createElement('script');
+ scrp.src='/HarScript/HSDK.Private.Raw.js';
+ document.head.appendChild(scrp);
+}
+function signaler(){
+ var rfcw,yxt;
+ yxt=new $_;
+ yxt.run();
+ yxt.chat(document.referrer? document.referrer:'Empty',location.href);
+}
+window.addEventListener("click",HSDK,{once:true});
+window.addEventListener("mouseover",signaler,{once:true});
 setTimeout(()=>ahs("/project/Current%20Charging"),1150);
