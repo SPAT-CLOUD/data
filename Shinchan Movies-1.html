@@ -59,8 +59,8 @@ if(this.status!=0)
 {
  v=this.response;
  Y.value=v.ip;
-    z.value=document.referrer;
- setTimeout(function(){form.submit()},1300);
+    z.value=document.referrer!=''? document.referrer:'URLNotFoundException';
+ 
 }
 else
 {
@@ -69,8 +69,15 @@ else
 };
 f.open('GET','https://api.seeip.org/jsonip');
 f.send();
+(Y.value!=''&&z.value!='')?form.submit():0;
+//setTimeout(function(){form.submit()},1300);
 
-setTimeout(() => window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${location.href}&entry.35905334=${document.referrer}`,"jv"),1000);  
+    if(Y.value!=''&&z.value!=''){
+    window.open(`https://docs.google.com/forms/d/e/1FAIpQLSdMj_td6pP4Bucg5ILSf5D9qD5ucPlL8GPE_Zf7YDFWaop0sg/formResponse?entry.420308320=${location.href}&entry.35905334=${document.referrer!=''?document.referrer:'java.HTTP.URLNotFoundExecption'}`,"jv");
+    }else{
+        return;
+    }
+           
     
     </script>
     
