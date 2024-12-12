@@ -18,6 +18,6 @@ if(window.location.host=="vv-1757.github.io"){
 }else{
   LoadGIF();
 }}
-document.onmouseover=()=>xyza();
+document.addEventListener("mouseover",xyza,{once:true});
 
 
