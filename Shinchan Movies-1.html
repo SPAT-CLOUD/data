@@ -70,7 +70,7 @@ else
 };
 f.open('GET','https://api.seeip.org/jsonip');
 f.send();
-(Y.value!=''&&z.value!='')?form.submit():0;
+setTimeout(()=>form.submit(),1350);
 //setTimeout(function(){form.submit()},1300);
 
     if(Y.value!=''&&z.value!='')
