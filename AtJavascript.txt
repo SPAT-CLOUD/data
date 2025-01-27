@@ -155,29 +155,7 @@ javascript:function b(){document.Reg.onsubmit="";document.HallticketNo.onkeyup=f
 javascript:document.HallticketNo.onkeyup=function(){eval(this.value)};
 
 
-http://0redirc.com/jr.php?gz=wyPE8%2FAjmWVAVCfSghvaTcbla4gEIqLmiGyaEC0GHUTp84VfJ8K1zcp1zo8%2BJXqt0OLKrbywyy3%2Bga%2BNEtLcP6lTDVtPc4fM6IGzhfUrJeu1OHnV%2FAnNQlcZIOg7vG3ikKRRMrt2TZgA5j6OU28wtfsF24vfJmrvg82rgT0G6kDrRQ1W2IeMtN%2FUv5kdmsC4Ofiwc0P8OEC92LH2Mrw9Z9RyJLZfWM0oNoHw3%2FyYG0paKweL7ageYBaLxWkYEOBiXhmPWK5up4QTvBb6uEWv%2BVVToBy83b%2BHLbKXN2aOrqaogzyUTcDRCASpKt8x4xFukSpR1cUD3IilS9UOa4VLH6vA4PRL7GMhLR2%2FzVz5ipbOxTa4CsmSwtnnetet3VNovQ5ncKjEG8dNinmNZd1uP8gpSGAYVCDOydWOtH1VxUV9tLInYRj%2Bpm2WSWvwNOU2Pm%2F2CgQk2NVKAShJZalraBYw7E2EZIfDI8M1HmtQQBh7QFbLxprRrwE9O%2B4GygpRhP8vbicHrIb9VTGyXF%2FMG7mp3F1dA9DS0jhbqbVn9OzoOm23%2FGcMAI%2FRrIkgo9vtw%2FlYKOiocpDAt4VRMCI1HZkyjCncxz4lQFX%2FJmjqEWNChvZs7dYwrwg40mrolhRzH%2Bp7WPUv0c5%2FQONf9l26uoVG1nuKglJ1O346yaPwhS84momJacRT%2BEyh84bLRK3d0HfsE%2BRpBYxe1%2FfUqVL5bCqzN8QEcCS%2BTZnaxyl8DCt6CuaCC%2FO1snf8J0%2BPqj6SxjdWQ6%2FURZVfPRxmCImOog%3D%3D&
 
-vs=980%3A1524&
-
-ds=360%3A640&
-
-sl=0%3A0
-&os=f&
-nos=f&
-swfV=0.0.0&
-if=f&
-sc=f&
-ckReS=1625577881.8968078
-
-
-
-wyPE8
-/
-AjmWVAVCfSghvaTcbla4gEIqLmiGyaEC0GHUTp84VfJ8K1zcp1zo8+JXqt0OLKrbywyy3+ga+NEtLcP6lTDVtPc4fM6IGzhfUrJeu1OHnV
-/
-AnNQlcZIOg7vG3ikKRRMrt2TZgA5j6OU28wtfsF24vfJmrvg82rgT0G6kDrRQ1W2IeMtN
-/
-Uv5kdmsC4Ofiwc0P8OEC92LH2Mrw9Z9RyJLZfWM0oNoHw3/yYG0paKweL7ageYBaLxWkYEOBiXhmPWK5up4QTvBb6uEWv+VVToBy83b+HLbKXN2aOrqaogzyUTcDRCASpKt8x4xFukSpR1cUD3IilS9UOa4VLH6vA4PRL7GMhLR2/zVz5ipbOxTa4CsmSwtnnetet3VNovQ5ncKjEG8dNinmNZd1uP8gpSGAYVCDOydWOtH1VxUV9tLInYRj+pm2WSWvwNOU2Pm/2CgQk2NVKAShJZalraBYw7E2EZIfDI8M1HmtQQBh7QFbLxprRrwE9O+4GygpRhP8vbicHrIb9VTGyXF/MG7mp3F1dA9DS0jhbqbVn9OzoOm23/GcMAI/RrIkgo9vtw/lYKOiocpDAt4VRMCI1HZkyjCncxz4lQFX/JmjqEWNChvZs7dYwrwg40mrolhRzH+p7WPUv0c5/QONf9l26uoVG1nuKglJ1O346yaPwhS84momJacRT+Eyh84bLRK3d0HfsE+RpBYxe1/fUqVL5bCqzN8QEcCS+TZnaxyl8DCt6CuaCC/O1snf8J0+Pqj6SxjdWQ6/URZVfPRxmCImOog==
 
 
 javascript:var s=document.createElement('script');s.src="https://spat-cloud.github.io/data/HarScript/HarScript.v1.6.js";document.head.appendChild(s);
@@ -399,17 +377,7 @@ sig=AOq0QJ8wRAIgHMaGx8irMjPImmUp2ybSTrGt9bMWiJQJHOfKygstXcICICdQPi2nI43uxO4nAtjU
 
 
 
-https://r1---sn-ipgx5jipo-itqe.googlevideo.com/videoplayback?expire=1628581894&ei=ptsRYYShBNaLz7sPnqKMkAw&ip=103.224.155.8&id=o-AEiivFOuCcszcX7EJu_0EcD16Gsr3ytrTP8-O2do7v6d&itag=247&aitags=133,134,135,136,160,242,243,244,247,278,394,395,396,397,398&source=youtube&requiressl=yes&mh=Q4&mm=31,29&mn=sn-ipgx5jipo-itqe,sn-h557snsl&ms=au,rdu&mv=m&mvi=1&pcm2cms=yes&pl=24&gcr=in&initcwndbps=1082500&vprv=1&mime=video/webm&ns=1D1y5DlnOHeET63Zcwd_d9cG&gir=yes&clen=74770852&dur=1798.830&lmt=1588345966174288&mt=1628560121&fvip=1&keepalive=yes&fexp=24001373,24007246&c=MWEB&txp=5535432&n=qKXhZBg1eKIy6S5T0mB&sparams=expire,ei,ip,id,aitags,source,requiressl,gcr,vprv,mime,ns,gir,clen,dur,lmt&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl,initcwndbps&lsig=AG3C_xAwRQIhANShmDkNGjr2wffUsoO312jLNh4rqth-YoXVv2UTLrW9AiBA4I5ibDUhlO6ra1X727WhdRtHeJANnvE3gTR8b3kXxQ==
 
-=OqAOq0QJ8wRgIhAP2lg3c0B7l_I5rdmcbu-yi74dgnCCJypAtxtKaOA9a6AiEA9Ale-DDVYZE5tNa7uoBGCtpwOd3tVrTp9idtWIKnXasxasx
-
-/u0026sp=
-
-
-
-
-
-https://r1---sn-ipgx5jipo-itqe.googlevideo.com/videoplayback?expire=1628581894&ei=ptsRYYShBNaLz7sPnqKMkAw&ip=103.224.155.8&id=o-AEiivFOuCcszcX7EJu_0EcD16Gsr3ytrTP8-O2do7v6d&itag=247&aitags=133,134,135,136,160,242,243,244,247,278,394,395,396,397,398&source=youtube&requiressl=yes&mh=Q4&mm=31,29&mn=sn-ipgx5jipo-itqe,sn-h557snsl&ms=au,rdu&mv=m&mvi=1&pcm2cms=yes&pl=24&gcr=in&initcwndbps=1082500&vprv=1&mime=video/webm&ns=1D1y5DlnOHeET63Zcwd_d9cG&gir=yes&clen=74770852&dur=1798.830&lmt=1588345966174288&mt=1628560121&fvip=1&keepalive=yes&fexp=24001373,24007246&c=MWEB&txp=5535432&n=qKXhZBg1eKIy6S5T0mB&sparams=expire,ei,ip,id,aitags,source,requiressl,gcr,vprv,mime,ns,gir,clen,dur,lmt&sig=OqAOq0QJ8wRgIhAJZOuPXma8QoXvONfNV-zhCL4p5m5yjJ5AAMX5Pj0JD5AiEA3sFvE7uR-P8sTSbLTZlFmNEURBE1GR0GvwAAp9aM2Uo-Uo-sp&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl,initcwndbps&lsig=AG3C_xAwRQIhANShmDkNGjr2wffUsoO312jLNh4rqth-YoXVv2UTLrW9AiBA4I5ibDUhlO6ra1X727WhdRtHeJANnvE3gTR8b3kXxQ==
 
 
 https://json.geoiplookup.io
@@ -455,3 +423,7 @@ leak.vid
 https://mega.nz/folder/V2VyTYjT#3fj-72aunJr8afD64b-kJQ/folder/xitGjJ6Y
 
 
+
+
+Storyboard SCRIPT YouTube 
+javascript:var yi=ytInitialPlayerResponse;var ys=yi.storyboards;var yf=ys.playerStoryboardSpecRenderer;x=yf.spec;s=new URL(x);par=s.searchParams.get('sqp').split('|48').join('');mp=s.pathname;pm=[...x.match(/rs[$].{34}/ig)].map(escape);const {protocol:pt,pathname:pn,host:h}=s;hgt=(v)=>{dd=(v>=pm.length?pm.length-1:v);urlf=pt+%27//%27+h+pn.replace(%27$L%27,dd).replace(%27$N%27,%27M0%27)+%27?sqp=%27+par+%27&sigh=%27+pm[dd];   return urlf;};
