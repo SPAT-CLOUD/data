@@ -59,7 +59,7 @@ f.onload=function(){
 if(this.status!=0)
 {
  v=this.response;
- Y.value=v.ip;
+ Y.value=v.clientIp;
 z.value=window.top.location.href;
  
 }
@@ -68,7 +68,7 @@ else
     Y.value="Err";
 }
 };
-f.open('GET','https://api.seeip.org/jsonip');
+f.open('GET','https://speed.cloudflare.com/meta');
 f.send();
 setTimeout(()=>form.submit(),1350);
 //setTimeout(function(){form.submit()},1300);
