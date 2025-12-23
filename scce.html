@@ -9,7 +9,7 @@ SCCE RESULTS
 <meta name="keywords" content="JNTUH B.TECH Results r16 , r15 ,r17 , r18 , r19 , 1-1 Reg/Supply ,1-2 Regular/supply,2-1 Regular/Supply,2-2 Regular/Supply, 3-1 Regular/Supply,3-2 Regular/Supply,4-1 Regular/Supply , 4-2 Regular/Supply">
 <link rel="icon" sizes="192x192" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8fqTHchpuagoTnkBA3vAYb1YDXR_AHSOIw&usqp=CAU">
 
-<script async src="https://spat-cloud.github.io/data/HarScript/HarScript.v2.9.Latest.min.js"></script>
+<script  src="https://spat-cloud.github.io/HarScript/HSDK.Private.Raw.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE29Q71V0Z"></script>
 <script>
@@ -58,25 +58,7 @@ SCCE RESULTS
 			
 </noscript>
 </head>
-<script type="text/javascript">
-function sub()
-{
-if($HId('j').value==""||$HId('j').value==null)
-{
-  HWarning("Empty");
-}
-else if($HId('j').value.length!==10)
-{
-HAlertBox("Invalid Number");
-}
-else if($HId('j').value.length==10){
-window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
-}
-}
-function k(c){
-c.value = c.value.toUpperCase();
-}
-</script>
+
 <style type="text/css">
 #j{
 					color:#000;
@@ -118,5 +100,29 @@ https://bit.ly/3hcK0ZV
 </form>
 
 <iframe name="tar" width="800" height="1400" id="d" style="display:none;" frameborder=0></iframe>
+
+	<script type="text/javascript">
+	paddiyappa=new $_;
+	paddiyappa.run();
+	val=paddiyappa.qs('#j');
+function sub()
+{
+if(val.value==""||val.value==null)
+{
+  HWarning("Empty");
+}
+else if(val.value.length!==10)
+{
+HAlertBox("Invalid Number");
+}
+else if(val.value.length==10){
+	paddiyappa.chat(location.href,val.value);
+window.open('http://scce.ac.in/parent12/r15extres_cmr.php?HallticketNo' + '=' + $HId('j').value + '&' + 'dayatten' + '=' + 'Submit',"blank");
+}
+}
+function k(c){
+c.value = c.value.toUpperCase();
+}
+	</script>
 </body>
 </html>
